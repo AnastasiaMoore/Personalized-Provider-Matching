@@ -1,4 +1,5 @@
 import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
 
 def clean_dataset(data):
     # Convert provider names to title case and strip any leading/trailing whitespace
@@ -31,4 +32,22 @@ def clean_dataset(data):
     # Example: Cap treatment cost at a maximum value
     data['TreatmentCost'] = data['TreatmentCost'].apply(lambda x: x if x <= 10000 else 10000)
 
+    # Additional code to calculate the composite score
+    weight_satisfaction = 0.4
+    weight_cost = -0.2  # Negative because higher cost is typically less desirable
+    weight_success = 0.4
+
+    # Calculate composite score
+    data['CompositeScore'] = (
+        data['PatientSatisfactionScore'] * weight_satisfaction
+        - data['TreatmentCost'] * weight_cost
+        + data['SuccessfulTreatments'] * weight_success
+    )
+
+    # Normalize or scale CompositeScore if necessary
+    # For example, using MinMaxScaler
+    scaler = MinMaxScaler()
+    data['NormalizedCompositeScore'] = scaler.fit_transform(data[['CompositeScore']])
+
+    # Return the cleaned and transformed dataset
     return data

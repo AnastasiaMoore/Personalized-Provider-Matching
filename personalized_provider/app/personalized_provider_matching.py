@@ -111,13 +111,11 @@ with tab2:
 # Portfolio tab content
 with tab3:
     st.write("""
-    ## Methodology
-
-    ## Project Portfolio: Healthcare Provider Insight
+    ## Methodology: Healthcare Provider Insight
 
     ### Overview
     - **Objective**: Briefly summarize the goal of creating the Healthcare Provider Insight app.
-    - **Motivation**: Explain why you chose to work on this project and how it aligns with Garner Health’s mission.
+    - **Motivation**: Explain why you chose to work on this project.
 
     ### Data Analysis & Cleaning
     - **Data Exploration**: Discuss how you explored the data and any interesting insights you found.
