@@ -8,7 +8,7 @@ sys.path.append(str(Path(__file__).parent.parent / "src"))
 from cleaning import clean_dataset
 from analysis import perform_analysis
 from modeling import build_model
-
+import os
 
 import streamlit as st
 import pandas as pd
@@ -16,31 +16,29 @@ import numpy as np
 # Import other necessary modules
 
 # Load the dataset
-@st.cache
+#@st.cache
 def load_data():
-    data = pd.read_csv('data/raw/providers_data_messy.csv')
+    # Use an absolute path to locate the CSV file
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_file_path = os.path.join(current_dir, '..', 'data', 'raw', 'providers_data_messy.csv')
+
+    data = pd.read_csv(csv_file_path)
     return data
 
 data = load_data()
 
 # Clean the dataset
-@st.cache
-def clean_data(data):
-    clean_data = cleaning.clean_dataset(data)  # cleaning.py should contain the necessary functions
-    return clean_data
+#@st.cache
 
-cleaned_data = clean_data(data)
+cleaned_data = clean_dataset(data)
 
 # Display the data cleaning results
 st.write("Data Cleaning Results", cleaned_data.head())
 
 # Build or load the machine learning model
-@st.cache(allow_output_mutation=True)
-def load_model():
-    model = modeling.build_model(cleaned_data)  # modeling.py should contain the model building logic
-    return model
+#@st.cache(allow_output_mutation=True)
 
-model = load_model()
+model = build_model(cleaned_data)
 
 # Feature engineering and predictions
 # Perform any feature engineering required before making predictions
@@ -64,5 +62,3 @@ This app uses machine learning to provide personalized healthcare provider recom
 It is designed to demonstrate how data science can be applied to improve healthcare outcomes.
 """)
 
-# Footer with contact information
-st.footer('Healthcare Provider Insight by [Your Name] - For inquiries, please contact [Your Email]')
