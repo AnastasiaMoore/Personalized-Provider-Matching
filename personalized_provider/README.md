@@ -26,6 +26,22 @@ The app utilizes a synthetic dataset reflecting typical healthcare provider metr
   
 This dataset has been purposefully designed to be 'messy,' mimicking real-world data challenges such as typos, missing values, and outliers. 
 
+## Data Cleaning Process
+
+The data cleaning process is defined in the `sql/data_cleaning.sql` script. It includes the following steps:
+
+- Standardization of provider names to a consistent format.
+- Filling in missing values for years of experience with the column average.
+- Correction of negative values in the years of experience.
+- Standardization of location names.
+- Normalization of patient satisfaction scores to the correct range.
+- Deduplication of provider records.
+- Capping treatment costs to remove outliers.
+- Normalization of specialization names.
+
+To run these cleaning steps, you would execute the SQL script against the dataset in an SQL-compatible database environment. The script is designed for a PostgreSQL database but can be adapted for other database systems if necessary.
+
+
 # The Technology
 
 At the heart of "Healthcare Provider Insight" is a robust machine learning framework capable of processing complex datasets to deliver actionable insights. The technology stack includes:
