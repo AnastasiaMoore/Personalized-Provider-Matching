@@ -1,0 +1,1001 @@
+ProviderID,ProviderName,Specialization,YearsOfExperience,Location,PatientRecoveryTime,PatientSatisfactionScore,TreatmentCost,SuccessfulTreatments,PatientVolume,FacilityRating
+1,John Doe,Pediatrics,16.0,"Houston, TX",34.4,11.5,96.6,95,26,4.6
+2,John Doe,Oncology,14.0,"Chicago, IL",,10.1,158.42,93,22,4.0
+3,Maria Garcia,Oncology,10.0,"Chicago, IL",28.4,6.0,213.69,96,18,4.6
+4,Maria Garcia,Dermatology,12.0,"Houston, TX",32.7,5.6,161.02,97,18,4.1
+5,John Doe,Dermatology,18.0,"Chicago, IL",32.6,8.1,265.04,93,22,3.4
+6,Jon Doe,Oncology,12.0,"Chicago, IL",26.7,5.2,267.31,97,21,3.3
+7,Jane Smith,Dermatology,16.0,"Los Angeles, CA",25.4,8.7,201.16,96,18,4.5
+8,Maria Garcia,Pediatrics,14.0,"Phoenix, AZ",30.9,5.9,176.39,96,18,4.6
+9,Jane Smith,Oncology,16.0,"Houston, TX",21.7,12.5,212.87,94,21,3.8
+10,Jane Smith,Pediatrics,15.0,"New York, NY",25.0,6.7,199.11,96,17,3.7
+11,John Doe,Pediatrics,14.0,"Phoenix, AZ",25.5,5.5,138.0,96,24,3.8
+12,aria Garcia,Pediatrics,6.0,"Phoenix, AZ",39.1,7.0,,95,23,3.8
+13,Alex Johnson,Oncology,16.0,"Los Angeles, CA",35.7,9.6,219.93,95,22,4.1
+14,Jane Smith,Dermatology,17.0,"Houston, TX",32.8,8.0,254.37,99,16,4.0
+15,Maria Garcia,Pediatrics,14.0,"New York, NY",34.3,5.9,80.36,96,18,3.6
+16,Maria Garcia,Pediatrics,,"New York, NY",37.5,10.6,233.09,95,16,3.0
+17,Jane Smith,Oncology,18.0,"Los Angeles, CA",28.9,10.1,237.73,97,27,3.9
+18,John Doe,Dermatology,17.0,"Phoenix, AZ",31.8,5.5,,95,16,3.7
+19,John Doe,Dermatology,14.0,"Los Angeles, CA",38.2,7.5,184.89,95,23,3.5
+20,Alex Johnson,Oncology,12.0,"New York, NY",30.2,6.6,215.3,93,20,3.3
+21,Maria Garcia,Pediatrics,-14.0,"Phoenix, AZ",26.6,11.2,233.41,93,24,4.2
+22,John Doe,Oncology,13.0,"Phoenix, AZ",,7.7,205.28,97,23,3.6
+23,Jane Smith,Dermatology,17.0,"Los Angeles, CA",35.3,10.1,173.52,97,14,4.1
+24,John Doe,Oncology,14.0,"Houston, TX",,6.7,195.12,100,19,3.8
+25,Maria Garcia,Pediatrics,-20.0,"Chicago, IL",29.3,9.1,149.0,96,18,4.4
+26,Alex Johnson,Dermatology,16.0,"Phoenix, AZ",34.9,5.8,204.41,93,26,3.5
+27,John Doe,Dermatology,14.0,"Phoenix, AZ",25.9,7.0,,97,13,4.3
+28,Maria Garcia,Pediatrics,17.0,"Chicago, IL",32.7,8.0,158.98,96,8,4.0
+29,Maria Garcia,Pediatrics,10.0,"New York, NY",35.2,10.6,236.54,95,24,4.6
+30,Maria Garcia,Pediatrics,12.0,"Chicago, IL",22.8,5.1,182.25,95,21,3.8
+31,Maria Garcia,Dermatology,,"Los Angeles, CA",31.6,7.2,247.3,95,15,3.3
+32,Maria Garcia,Dermatology,-16.0,"Phoenix, AZ",27.8,6.0,172.96,100,14,4.3
+33,Jane Smith,Dermatology,11.0,"Phoenix, AZ",35.7,7.0,192.49,93,18,4.0
+34,Mari Garcia,Oncology,17.0,"Houston, TX",25.5,9.2,,92,19,3.2
+35,Maria Garcia,Oncology,-15.0,"New York, NY",37.4,5.5,137.31,97,25,3.6
+36,Mari Garcia,Pediatrics,12.0,"Los Angeles, CA",27.1,6.7,257.71,97,19,3.8
+37,John Doe,Oncology,15.0,"Chicago, IL",31.0,7.5,158.56,93,11,3.4
+38,John Doe,General Practice,17.0,"New York, NY",34.3,7.3,273.1,94,23,3.8
+39,Maria Garcia,Pediatrics,16.0,"New York, NY",22.0,4.0,228.31,93,15,4.1
+40,Jane Smith,Dermatology,,"Los Angeles, CA",31.0,7.5,237.94,92,22,3.7
+41,Jane Smith,Dermatology,12.0,"Houston, TX",37.9,5.7,157.65,98,18,4.5
+42,Maria Garcia,Pediatrics,18.0,"Los Angeles, CA",26.7,7.3,208.98,95,18,4.0
+43,Jane Smith,Oncology,20.0,"Los Angeles, CA",21.7,1.0,200.81,93,18,3.8
+44,Jane Smith,Pediatrics,16.0,"Houston, TX",38.3,10.5,,95,14,3.5
+45,Ale Johnson,Pediatrics,16.0,"New York, NY",37.2,10.5,231.62,95,15,3.6
+46,Alex Johnson,Pediatrics,14.0,"New York, NY",29.1,9.3,125.75,95,20,4.1
+47,John Doe,Pediatrics,14.0,"Chicago, IL",32.2,7.6,185.51,99,15,4.6
+48,Jane Smith,Oncology,10.0,"Houston, TX",34.8,6.5,292.18,92,18,4.1
+49,Alex Johnson,Dermatology,13.0,"New York, NY",29.6,4.4,159.89,97,19,3.5
+50,Alex Johnson,Dermatology,10.0,"New York, NY",28.4,3.2,214.51,99,20,4.0
+51,Maria Garcia,Orthopedics,17.0,"Houston, TX",31.6,6.9,218.73,94,15,4.3
+52,Alex Johnson,Pediatrics,,"Phoenix, AZ",15.3,9.7,238.76,95,16,2.8
+53,Alex Johnson,Dermatology,12.0,"New York, NY",,4.0,180.76,97,23,3.7
+54,Alex Johnson,Pediatrics,20.0,"Houston, TX",22.3,7.8,213.6,88,24,4.2
+55,John Doe,Dermatology,18.0,"Phoenix, AZ",26.5,7.2,296.93,96,17,4.9
+56,Maria Garcia,Oncology,11.0,"Phoenix, AZ",34.3,10.5,209.71,96,21,3.7
+57,Alex Johnson,Oncology,,"New York, NY",26.8,8.4,153.21,98,26,3.6
+58,Alex Johnson,Pediatrics,,"Chicago, IL",29.8,7.2,202.6,95,19,4.1
+59,John Doe,Dermatology,14.0,"Los Angeles, CA",25.6,11.4,207.9,97,14,3.8
+60,Maria Garcia,Pediatrics,17.0,"Chicago, IL",41.1,8.0,170.1,97,28,3.9
+61,Alex Johnson,Dermatology,10.0,"Chicago, IL",28.7,6.7,125.93,94,22,3.8
+62,Maria Garcia,Orthopedics,16.0,"New York, NY",26.6,7.4,218.68,98,23,3.8
+63,Maria Garcia,Pediatrics,,"Houston, TX",37.7,8.8,155.29,94,24,4.0
+64,John Doe,Dermatology,-18.0,"Houston, TX",36.9,7.1,189.21,98,26,2.7
+65,John Doe,Dermatology,10.0,"Phoenix, AZ",29.9,7.1,257.69,96,22,4.3
+66,Maria Garcia,Dermatology,,"Chicago, IL",35.1,8.9,185.39,97,16,4.3
+67,Maria Gacia,Dermatology,14.0,"Los Angeles, CA",23.7,8.4,172.51,90,13,3.0
+68,John Doe,Cardiology,9.0,"Phoenix, AZ",,5.0,193.27,97,17,4.0
+69,John Doe,Dermatology,,"Los Angeles, CA",31.2,9.1,224.32,96,10,5.1
+70,John Doe,Dermatology,-10.0,"Phoenix, AZ",18.3,11.6,,97,19,3.6
+71,John Doe,Dermatology,14.0,"Houston, TX",,10.0,151.05,95,19,4.5
+72,John Doe,Oncology,15.0,"New York, NY",23.8,10.0,231.0,92,28,4.4
+73,Jane Smith,Pediatrics,,"Los Angeles, CA",33.1,8.0,169.73,95,15,4.0
+74,Alex Johnson,Dermatology,13.0,"New York, NY",30.7,8.3,242.83,94,16,4.7
+75,Jane Smith,Dermatology,12.0,"Phoenix, AZ",,7.0,108.11,96,15,4.8
+76,John Doe,Pediatrics,11.0,"Phoenix, AZ",35.8,8.5,226.62,96,19,3.8
+77,ane Smith,Pediatrics,-17.0,"New York, NY",40.6,13.3,152.26,98,13,3.7
+78,John Doe,Dermatology,13.0,"Houston, TX",25.1,14.4,274.16,91,19,3.9
+79,Jne Smith,Oncology,16.0,"Los Angeles, CA",22.9,7.3,194.93,96,15,4.3
+80,John Doe,Dermatology,,"New York, NY",33.8,6.3,280.15,92,27,4.5
+81,Maria Garcia,Dermatology,18.0,"Phoenix, AZ",30.4,8.7,231.3,94,14,4.2
+82,Alex Johnson,Oncology,12.0,"Los Angeles, CA",23.4,9.3,210.3,94,22,4.0
+83,Jane Smith,Dermatology,,"Los Angeles, CA",25.4,9.2,282.88,95,16,3.6
+84,John Doe,Oncology,16.0,"Chicago, IL",22.3,8.7,94.2,96,22,4.2
+85,Alex Johnson,Pediatrics,13.0,"Los Angeles, CA",27.4,10.0,229.49,95,19,4.2
+86,Maria Garcia,Oncology,15.0,"Houston, TX",27.7,6.7,152.61,93,20,2.9
+87,Maria Garcia,Pediatrics,17.0,"New York, NY",,8.3,233.67,92,14,4.2
+88,Jane Smith,Oncology,8.0,"Houston, TX",30.2,6.3,149.07,95,16,4.2
+89,ohn Doe,Orthopedics,17.0,"Chicago, IL",35.2,3.1,,95,22,3.6
+90,Maria Garcia,Dermatology,,"Houston, TX",,10.4,269.87,94,20,4.1
+91,Maria Garcia,Dermatology,20.0,"Los Angeles, CA",30.1,7.3,192.28,91,18,3.3
+92,Alex ohnson,Dermatology,16.0,"Los Angeles, CA",,5.2,261.65,94,19,3.4
+93,Maria Garcia,Oncology,16.0,"Los Angeles, CA",,9.0,273.85,93,13,3.4
+94,Maria Garcia,Oncology,8.0,"New York, NY",37.5,9.4,,96,20,3.9
+95,Alex Johnson,General Practice,16.0,"Phoenix, AZ",,9.0,,97,21,4.0
+96,Jane Smith,Dermatology,16.0,"Phoenix, AZ",26.7,7.9,139.77,94,21,4.2
+97,Maria Garcia,Dermatology,16.0,"Chicago, IL",29.9,9.7,140.32,97,16,4.8
+98,Maria Garcia,Oncology,20.0,"Houston, TX",31.3,9.9,206.92,92,22,4.2
+99,Maria Garcia,Pediatrics,-13.0,"Phoenix, AZ",25.1,4.8,278.08,98,19,4.3
+100,Alex Johnson,Neurology,15.0,"New York, NY",23.4,7.6,203.23,95,19,4.5
+101,Jane Smith,Pediatrics,18.0,"Los Angeles, CA",29.5,10.5,286.33,95,22,4.5
+102,Maria Garcia,Dermatology,-14.0,"Chicago, IL",25.6,7.6,122.51,93,24,4.1
+103,Jane Smith,Oncology,16.0,"Los Angeles, CA",37.1,8.6,312.21,91,13,3.7
+104,Alex Johnson,Dermatology,15.0,"New York, NY",37.3,7.6,,91,18,4.2
+105,John Doe,Dermatology,13.0,"Los Angeles, CA",30.1,8.5,136.54,98,26,3.7
+106,Jane Smith,Oncology,14.0,"New York, NY",40.5,13.1,195.83,89,22,4.2
+107,Jane Smith,Oncology,12.0,"Houston, TX",28.6,7.4,220.37,94,22,3.8
+108,Jane Smith,Dermatology,,"New York, NY",,8.2,186.65,97,21,3.6
+109,John Doe,Dermatology,12.0,"Houston, TX",25.9,9.8,,96,17,4.3
+110,John Doe,Pediatrics,17.0,"Houston, TX",26.7,5.9,182.36,92,14,4.8
+111,John Doe,Oncology,19.0,"Houston, TX",31.1,5.4,196.39,92,12,4.6
+112,John Doe,Oncology,15.0,"Los Angeles, CA",31.4,5.9,227.38,97,27,3.7
+113,Jane Smith,Oncology,14.0,"Los Angeles, CA",19.3,9.0,265.34,97,18,3.9
+114,Alex Johnson,Pediatrics,,"Los Angeles, CA",25.7,9.1,297.75,98,25,3.7
+115,John Doe,Oncology,14.0,"Chicago, IL",26.1,9.4,221.46,96,19,3.8
+116,Jane Smith,Pediatrics,16.0,"Chicago, IL",25.6,10.7,166.64,96,23,4.5
+117,John Doe,Orthopedics,12.0,"Phoenix, AZ",20.8,7.7,202.97,94,15,4.2
+118,John Doe,Dermatology,11.0,"Chicago, IL",22.3,5.6,165.44,97,18,3.0
+119,Jane Smith,Oncology,13.0,"Los Angeles, CA",33.6,6.0,130.25,93,22,3.9
+120,John Doe,Dermatology,19.0,"Chicago, IL",26.7,5.9,,95,10,4.2
+121,Alex Johnson,Pediatrics,,"Chicago, IL",,9.0,221.5,98,19,3.8
+122,Jane Smith,Pediatrics,14.0,"Chicago, IL",34.8,7.8,213.59,92,29,4.2
+123,Jane Smith,Dermatology,17.0,"Phoenix, AZ",29.5,8.8,224.41,93,15,3.8
+124,Alex Johnson,Dermatology,13.0,"Houston, TX",,7.6,189.07,94,18,3.8
+125,John Doe,Dermatology,16.0,"Los Angeles, CA",36.7,7.2,284.25,95,24,4.5
+126,Jane Smith,Pediatrics,17.0,"Los Angeles, CA",33.9,9.4,211.71,95,19,4.1
+127,Maria Garcia,General Practice,14.0,"Phoenix, AZ",24.9,9.6,162.88,97,26,4.2
+128,Maria Garcia,Pediatrics,,"New York, NY",38.0,7.8,149.44,94,15,3.6
+129,Alex Johnson,Oncology,14.0,"Houston, TX",28.1,6.9,187.36,94,21,4.6
+130,Maria Garcia,Pediatrics,17.0,"Phoenix, AZ",34.7,6.7,132.2,93,21,4.1
+131,Maria Garcia,Pediatrics,16.0,"Los Angeles, CA",34.1,6.4,247.43,91,8,3.1
+132,Jane Smith,Cardiology,9.0,"Chicago, IL",30.4,9.0,200.52,92,25,3.9
+133,Jane Smith,Oncology,,"Phoenix, AZ",27.7,5.9,237.78,92,24,2.4
+134,Alex Johnson,Pediatrics,16.0,"New York, NY",31.3,7.8,247.5,96,21,4.6
+135,Jane Smith,Pediatrics,,"Phoenix, AZ",31.3,5.5,108.49,93,11,4.2
+136,ane Smith,Dermatology,15.0,"New York, NY",,4.7,238.79,91,28,4.1
+137,Alex Johnson,Dermatology,15.0,"Phoenix, AZ",29.5,8.5,194.17,96,19,4.5
+138,Alex Johnson,Pediatrics,11.0,"New York, NY",,9.0,189.61,94,20,3.0
+139,John Doe,Oncology,15.0,"Phoenix, AZ",32.9,8.0,170.17,97,21,4.4
+140,Maria Garcia,Oncology,15.0,"New York, NY",28.0,9.8,166.53,96,15,3.0
+141,John Doe,General Practice,10.0,"New York, NY",29.5,7.4,181.35,96,25,3.9
+142,Maria Garcia,Dermatology,11.0,"Phoenix, AZ",27.6,5.6,126.64,95,19,4.3
+143,John Doe,Dermatology,20.0,"Los Angeles, CA",,10.0,,94,23,4.4
+144,Maria Garcia,Pediatrics,15.0,"Phoenix, AZ",35.6,12.6,143.76,98,23,4.3
+145,Alex Johnson,Dermatology,20.0,"Los Angeles, CA",29.6,8.4,188.71,93,18,3.3
+146,John Doe,Dermatology,16.0,"New York, NY",25.8,9.8,214.48,97,17,4.1
+147,Maria Garcia,Dermatology,17.0,"Phoenix, AZ",25.5,10.0,103.57,99,23,4.1
+148,Jane Smith,Cardiology,14.0,"New York, NY",35.7,5.4,255.19,96,20,3.1
+149,Alex Johnson,Pediatrics,13.0,"Los Angeles, CA",28.6,8.7,301.48,93,28,3.6
+150,John De,Oncology,12.0,"Phoenix, AZ",20.6,9.2,,96,14,3.9
+151,Maria Garcia,Dermatology,12.0,"Phoenix, AZ",,11.9,,93,20,3.0
+152,Maria Garcia,Dermatology,18.0,"Phoenix, AZ",26.9,8.7,262.05,94,24,3.7
+153,Jane Smith,Dermatology,11.0,"Houston, TX",30.8,3.9,150.18,94,12,4.8
+154,John Doe,Oncology,17.0,"Los Angeles, CA",31.6,3.0,173.01,95,19,4.4
+155,Jane Smith,Dermatology,-13.0,"New York, NY",38.0,10.8,150.46,95,29,3.3
+156,Maria Garcia,Pediatrics,12.0,"New York, NY",,9.5,214.38,97,17,4.2
+157,Alex Johnson,Oncology,,"Phoenix, AZ",35.5,8.5,,92,12,3.6
+158,Alex Johnson,Neurology,17.0,"Chicago, IL",34.9,6.8,226.48,96,17,4.5
+159,Maria Garcia,Dermatology,12.0,"Chicago, IL",,6.9,287.79,95,15,4.5
+160,Alex Johnson,Dermatology,11.0,"Houston, TX",35.5,10.7,,94,14,3.8
+161,Maria Garcia,Cardiology,16.0,"New York, NY",19.5,11.3,176.7,92,22,3.8
+162,Alex Johnson,Oncology,10.0,"Phoenix, AZ",35.9,11.0,267.4,94,15,3.9
+163,John Doe,Neurology,16.0,"Houston, TX",31.7,8.9,175.31,95,16,4.0
+164,Jane Smith,Dermatology,-14.0,"Phoenix, AZ",,10.9,199.97,95,24,4.0
+165,Alex Johnson,Oncology,15.0,"New York, NY",19.3,11.1,137.24,96,20,4.4
+166,John Doe,Oncology,9.0,"Chicago, IL",25.8,6.0,158.94,98,17,3.7
+167,John Doe,Oncology,10.0,"Los Angeles, CA",26.7,6.6,122.3,91,18,4.1
+168,Maria Garcia,Pediatrics,12.0,"Los Angeles, CA",,5.5,157.1,98,11,4.0
+169,Alex Johnson,Oncology,15.0,"Phoenix, AZ",34.8,7.6,296.31,96,17,4.6
+170,Jane Smith,Dermatology,19.0,"Houston, TX",30.1,7.2,150.57,91,24,5.1
+171,Alex Johnson,Oncology,14.0,"Los Angeles, CA",29.4,8.2,206.36,95,17,3.3
+172,Jane Smith,Oncology,18.0,"Houston, TX",30.7,9.5,237.43,93,18,4.4
+173,John Doe,Dermatology,13.0,"New York, NY",30.2,9.3,214.8,94,13,4.4
+174,John Doe,General Practice,5.0,"Phoenix, AZ",36.0,5.5,180.87,98,22,3.9
+175,John Doe,Dermatology,15.0,"Houston, TX",28.4,10.0,175.84,97,21,4.4
+176,Jane Smith,Oncology,14.0,"Phoenix, AZ",26.7,5.2,269.55,98,17,4.2
+177,Jane Smith,Dermatology,12.0,"Los Angeles, CA",33.4,9.0,82.04,95,17,3.8
+178,John Doe,Dermatology,,"Chicago, IL",31.6,6.1,261.86,93,30,3.9
+179,Jane Smith,Oncology,17.0,"New York, NY",31.2,9.0,235.97,94,18,3.8
+180,John Doe,Pediatrics,13.0,"Los Angeles, CA",25.6,8.1,162.27,97,17,3.7
+181,Jane Smith,Dermatology,13.0,"Phoenix, AZ",24.2,8.2,,96,23,3.3
+182,Alex Johnson,Pediatrics,19.0,"Houston, TX",34.7,5.8,264.19,94,21,4.0
+183,Jane Smith,Dermatology,12.0,"Phoenix, AZ",28.0,9.9,108.27,92,30,4.5
+184,Maria Garcia,Dermatology,18.0,"Houston, TX",31.3,4.9,84.38,92,17,4.3
+185,Jane Smith,Pediatrics,13.0,"Phoenix, AZ",21.4,4.2,147.42,95,20,4.5
+186,Maria arcia,Pediatrics,11.0,"New York, NY",,4.5,154.76,96,17,4.5
+187,Maria Garcia,Orthopedics,16.0,"Chicago, IL",31.5,8.2,229.27,94,15,4.8
+188,Jane Smith,Pediatrics,12.0,"Houston, TX",23.2,8.1,188.13,94,16,4.2
+189,Maria Garcia,Dermatology,16.0,"Los Angeles, CA",33.3,11.1,162.29,90,16,4.2
+190,Jane Smith,Pediatrics,18.0,"Chicago, IL",22.3,7.9,140.92,95,20,4.4
+191,John Doe,Dermatology,11.0,"New York, NY",36.4,7.1,189.38,95,22,4.0
+192,AlexJohnson,Neurology,,"Houston, TX",34.4,6.8,206.17,95,18,4.3
+193,John Doe,Pediatrics,13.0,"Phoenix, AZ",29.3,8.9,250.23,94,16,3.9
+194,Maria Gacia,Oncology,11.0,"Phoenix, AZ",29.7,8.4,259.82,96,17,5.0
+195,Alex Johnson,Pediatrics,21.0,"Chicago, IL",29.6,8.1,254.41,99,18,4.8
+196,Maria Garcia,Dermatology,17.0,"Phoenix, AZ",,6.8,149.88,95,21,4.2
+197,Alex Johnson,Dermatology,16.0,"Chicago, IL",36.7,6.5,,96,22,2.9
+198,Maria Garcia,Oncology,14.0,"Chicago, IL",37.9,6.0,202.68,94,21,4.6
+199,Maria Garcia,Pediatrics,,"Los Angeles, CA",40.0,4.9,198.71,97,15,3.9
+200,Jane Smith,Dermatology,13.0,"Los Angeles, CA",32.0,10.4,249.19,93,20,4.1
+201,Jane Smith,Oncology,14.0,"Los Angeles, CA",36.2,7.0,257.71,94,13,4.2
+202,John Doe,General Practice,15.0,"Phoenix, AZ",39.4,7.5,88.67,96,23,4.1
+203,Jane Smith,Oncology,17.0,"Houston, TX",31.9,7.7,168.0,97,23,3.2
+204,Maria Garcia,Oncology,12.0,"Houston, TX",36.8,8.0,144.04,93,19,4.4
+205,John Doe,Oncology,15.0,"Los Angeles, CA",31.2,10.5,222.05,96,17,4.2
+206,Alex Johnson,Oncology,14.0,"Los Angeles, CA",33.2,7.8,281.8,98,20,4.3
+207,Jane Smith,Orthopedics,17.0,"Houston, TX",25.4,5.3,238.66,95,18,4.1
+208,Jane Smith,Dermatology,15.0,"Los Angeles, CA",27.3,7.3,238.7,98,21,4.6
+209,Alex Johnson,Oncology,12.0,"Chicago, IL",37.4,8.7,170.1,97,17,4.0
+210,Jane Smith,Dermatology,20.0,"New York, NY",33.3,7.6,221.31,97,13,4.4
+211,Jane Smith,Dermatology,14.0,"Chicago, IL",27.2,6.1,185.7,95,17,4.3
+212,Maria Garcia,Pediatrics,18.0,"Houston, TX",34.2,8.9,,96,16,5.1
+213,John Doe,Dermatology,16.0,"Los Angeles, CA",30.9,12.5,147.02,94,24,3.5
+214,Maria Garcia,Dermatology,20.0,"New York, NY",34.4,6.5,223.17,98,17,4.0
+215,Maria Garcia,Orthopedics,16.0,"Los Angeles, CA",34.2,11.0,203.37,96,17,4.2
+216,Alex Johnson,Pediatrics,13.0,"Chicago, IL",33.1,8.1,140.88,96,17,4.3
+217,Maria Garcia,Pediatrics,13.0,"Los Angeles, CA",29.1,10.5,177.9,94,20,3.9
+218,Jane Smith,Pediatrics,16.0,"Chicago, IL",31.8,12.7,193.56,92,19,4.5
+219,Alex Johnson,Orthopedics,9.0,"New York, NY",34.2,8.4,146.01,95,17,3.8
+220,Maria Garcia,Oncology,17.0,"Phoenix, AZ",28.9,11.2,132.97,95,24,5.2
+221,John Doe,Pediatrics,8.0,"Phoenix, AZ",28.3,10.2,293.9,93,23,4.0
+222,Alex Johnson,Cardiology,11.0,"New York, NY",35.7,9.0,197.02,93,16,4.1
+223,Maria Garcia,Pediatrics,19.0,"Los Angeles, CA",39.0,4.5,202.14,94,22,4.2
+224,Alex Johnson,Neurology,14.0,"Phoenix, AZ",28.7,9.6,234.53,96,17,4.6
+225,Maria Garcia,Pediatrics,,"Chicago, IL",29.1,5.8,147.58,98,25,3.6
+226,Maria Garcia,Dermatology,14.0,"Phoenix, AZ",27.2,8.1,213.61,97,20,3.1
+227,Jhn Doe,Pediatrics,17.0,"Chicago, IL",30.5,9.7,120.09,94,19,4.6
+228,John Doe,Pediatrics,18.0,"New York, NY",22.7,2.0,223.64,95,17,3.7
+229,Alex Johnson,Pediatrics,11.0,"Phoenix, AZ",27.7,7.8,175.62,95,26,3.6
+230,John Doe,Dermatology,15.0,"New York, NY",31.7,8.3,116.71,98,14,4.2
+231,Maria Garcia,Pediatrics,,"Houston, TX",29.9,7.5,259.13,96,18,3.9
+232,Alex Johnson,Pediatrics,16.0,"New York, NY",31.6,11.2,277.48,99,23,4.8
+233,Jane Smith,Dermatology,15.0,"Phoenix, AZ",26.7,9.2,185.36,94,18,3.5
+234,John Doe,Dermatology,,"Chicago, IL",,9.7,120.54,97,20,3.3
+235,John Doe,Pediatrics,10.0,"New York, NY",32.7,9.0,210.56,94,20,3.8
+236,Jane Smith,Dermatology,11.0,"Phoenix, AZ",29.9,6.9,239.17,95,17,3.6
+237,Maria Garcia,Dermatology,12.0,"Los Angeles, CA",26.2,10.5,212.11,98,21,3.9
+238,Jane Smith,Dermatology,11.0,"Chicago, IL",,9.8,248.61,97,17,3.4
+239,Alex Johnson,Pediatrics,18.0,"Los Angeles, CA",27.5,9.3,104.21,92,16,4.1
+240,John Doe,Orthopedics,11.0,"Los Angeles, CA",31.0,7.7,168.24,92,18,4.0
+241,Alex Johnson,Dermatology,,"Houston, TX",27.4,3.0,198.86,93,19,4.1
+242,Alex Johnson,Dermatology,11.0,"New York, NY",32.5,9.4,224.59,95,24,4.8
+243,John Doe,Pediatrics,15.0,"Los Angeles, CA",29.2,7.9,236.33,96,22,3.5
+244,John Doe,Dermatology,15.0,"Chicago, IL",31.4,9.4,187.46,91,24,3.8
+245,Maria Garcia,Dermatology,12.0,"Los Angeles, CA",33.4,11.3,218.01,92,21,4.4
+246,Alex Johnson,Oncology,15.0,"Houston, TX",35.9,9.0,263.3,99,24,2.9
+247,Jane Smit,Dermatology,21.0,"Phoenix, AZ",31.0,9.9,194.3,97,17,3.4
+248,Alex Johnson,Oncology,17.0,"Chicago, IL",28.7,7.4,,95,23,4.9
+249,Alex Johnson,Oncology,,"Chicago, IL",33.3,4.4,214.37,94,24,3.8
+250,Jane Smith,Dermatology,13.0,"Phoenix, AZ",25.1,7.8,169.07,95,22,4.2
+251,Alex Johnson,Dermatology,16.0,"Houston, TX",34.1,9.8,,97,15,4.6
+252,Jane Smith,Dermatology,,"Houston, TX",19.0,8.2,198.76,96,20,3.0
+253,John Doe,Pediatrics,16.0,"New York, NY",24.6,8.6,167.92,97,23,4.2
+254,Alex Johnson,Orthopedics,12.0,"Chicago, IL",,8.3,219.56,93,20,3.5
+255,Jane Smith,Cardiology,14.0,"New York, NY",35.6,12.0,167.55,95,23,3.8
+256,John Doe,Pediatrics,16.0,"Los Angeles, CA",20.6,6.7,240.21,96,20,4.7
+257,Joh Doe,General Practice,17.0,"New York, NY",30.8,5.4,277.05,97,17,3.4
+258,Jane Smith,Pediatrics,10.0,"New York, NY",30.6,9.3,295.44,95,18,3.3
+259,Alex Johnson,Oncology,13.0,"Phoenix, AZ",30.9,7.7,188.0,95,23,3.8
+260,John Doe,Oncology,14.0,"New York, NY",27.4,8.2,136.39,94,24,4.2
+261,Jane Smith,Dermatology,16.0,"Los Angeles, CA",38.4,5.5,223.97,94,24,4.1
+262,Maria Garcia,Oncology,18.0,"New York, NY",37.7,8.6,274.5,98,20,4.7
+263,Alex Johnson,Oncology,11.0,"Houston, TX",26.5,8.8,253.93,96,18,3.9
+264,Maria Garcia,Pediatrics,15.0,"New York, NY",32.7,3.2,275.04,96,23,4.1
+265,John Doe,Dermatology,17.0,"Phoenix, AZ",26.5,8.0,156.7,97,11,3.8
+266,Maria Garcia,Dermatology,14.0,"Phoenix, AZ",28.1,12.2,210.78,96,14,3.8
+267,John Doe,Oncology,13.0,"Phoenix, AZ",31.8,5.6,189.31,98,20,2.6
+268,Jane Smith,Pediatrics,,"New York, NY",25.7,10.4,121.57,95,18,4.4
+269,Jane Smith,Dermatology,-16.0,"Los Angeles, CA",33.0,5.0,256.05,95,28,3.6
+270,Alex Johnson,Oncology,18.0,"Chicago, IL",32.7,8.2,,95,22,3.5
+271,Maria Garcia,Dermatology,20.0,"Phoenix, AZ",26.5,9.3,140.32,97,22,4.0
+272,Maria Garcia,Pediatrics,17.0,"New York, NY",19.9,7.0,255.48,98,21,4.0
+273,Alex Johnson,Pediatrics,15.0,"Chicago, IL",32.4,6.7,207.1,94,18,3.9
+274,Jane mith,Dermatology,12.0,"Houston, TX",31.9,9.3,222.19,94,17,4.4
+275,Alex Johnson,Oncology,12.0,"Houston, TX",,6.0,178.54,96,16,3.7
+276,Alex Johnson,Dermatology,11.0,"Phoenix, AZ",26.5,3.4,136.54,94,19,4.2
+277,Maria arcia,Pediatrics,12.0,"Phoenix, AZ",28.8,5.4,225.24,91,25,3.7
+278,John Doe,Dermatology,14.0,"Houston, TX",23.0,7.0,,93,26,4.4
+279,Maria Garcia,Pediatrics,10.0,"Phoenix, AZ",34.8,10.0,285.68,96,21,4.9
+280,Alex Johnson,Oncology,13.0,"Houston, TX",35.7,6.0,,97,10,4.5
+281,Jane Smith,Cardiology,14.0,"New York, NY",,7.1,171.36,98,15,3.3
+282,Maria Garcia,Oncology,20.0,"Chicago, IL",30.1,6.5,121.63,95,16,4.3
+283,Alex Johnson,Oncology,19.0,"New York, NY",29.7,4.6,205.25,95,23,3.9
+284,Maria Garcia,Dermatology,13.0,"Houston, TX",29.3,5.3,234.29,94,20,4.4
+285,Jane Smith,Oncology,21.0,"New York, NY",32.1,4.6,256.49,93,32,3.7
+286,Jane Smith,Oncology,15.0,"Houston, TX",28.3,7.8,241.75,98,15,4.6
+287,Jane Smith,Pediatrics,-20.0,"New York, NY",30.4,10.3,95.34,91,21,4.1
+288,Alex Johnson,Oncology,16.0,"Chicago, IL",34.8,1.0,119.4,96,13,3.1
+289,Jane Smith,Oncology,14.0,"Houston, TX",15.4,7.6,256.34,96,19,5.2
+290,Alex Johnson,Pediatrics,12.0,"Phoenix, AZ",23.8,5.0,195.36,95,17,3.9
+291,John Doe,Cardiology,13.0,"Phoenix, AZ",,5.8,,98,17,3.6
+292,Jane Smith,Pediatrics,13.0,"Phoenix, AZ",29.4,8.4,185.02,94,20,3.8
+293,Maria Garcia,Pediatrics,15.0,"Houston, TX",29.2,9.0,,97,24,2.7
+294,Alex Johnson,Dermatology,,"Phoenix, AZ",27.5,4.3,167.35,92,15,4.0
+295,Maria Garcia,Cardiology,13.0,"Los Angeles, CA",22.4,11.1,,97,22,3.3
+296,Jane Smith,Dermatology,,"Chicago, IL",27.5,6.6,264.9,96,19,3.1
+297,Alex Johnson,Pediatrics,11.0,"Los Angeles, CA",29.4,7.7,168.13,97,21,3.8
+298,Alex Johnson,Oncology,,"Houston, TX",38.4,4.9,,94,17,4.9
+299,John Doe,Neurology,14.0,"Houston, TX",28.4,2.0,243.78,96,17,4.0
+300,Alex Johnson,Dermatology,14.0,"Chicago, IL",32.6,8.5,174.25,97,22,3.1
+301,Jane Smith,Dermatology,15.0,"New York, NY",28.1,7.7,,93,20,4.0
+302,John Doe,Oncology,-14.0,"Chicago, IL",34.5,9.9,193.78,94,17,4.3
+303,Alex Johnson,Oncology,17.0,"Los Angeles, CA",31.8,12.5,126.4,95,15,4.1
+304,Maria Garcia,Pediatrics,12.0,"Los Angeles, CA",27.2,7.3,146.53,96,13,3.9
+305,Jane Smith,Dermatology,15.0,"Los Angeles, CA",21.7,10.6,177.02,92,24,3.9
+306,John Doe,Dermatology,11.0,"Los Angeles, CA",29.4,8.3,282.49,96,17,4.3
+307,Maria Garcia,Oncology,14.0,"New York, NY",29.3,7.5,149.2,95,17,4.3
+308,Alex Johnson,Dermatology,10.0,"Houston, TX",26.6,7.5,263.48,97,21,3.0
+309,Jane Smith,Dermatology,13.0,"Houston, TX",29.4,8.1,200.07,93,22,3.9
+310,John Doe,Oncology,,"Chicago, IL",43.6,6.1,237.06,95,16,4.7
+311,Maria Garcia,Dermatology,13.0,"Houston, TX",28.0,9.2,196.82,94,25,4.4
+312,Alex Johnson,Pediatrics,20.0,"Houston, TX",24.7,9.0,150.15,96,19,3.8
+313,Alex Johnson,Oncology,14.0,"Houston, TX",29.6,4.9,184.12,99,19,4.1
+314,John Doe,Pediatrics,,"New York, NY",34.2,8.6,195.23,96,16,4.2
+315,Jane Smith,Pediatrics,14.0,"New York, NY",14.7,11.4,203.05,99,24,4.7
+316,John Doe,Pediatrics,15.0,"Houston, TX",36.7,8.3,199.04,99,22,4.2
+317,Jon Doe,Dermatology,18.0,"Los Angeles, CA",27.0,4.5,,90,20,3.4
+318,John Doe,Dermatology,13.0,"Houston, TX",,7.6,,98,12,4.7
+319,John Doe,Dermatology,19.0,"Chicago, IL",30.0,8.8,185.51,95,15,3.6
+320,Jane Smith,Pediatrics,15.0,"Phoenix, AZ",22.2,8.8,184.85,93,15,3.7
+321,Alex Johnson,Dermatology,14.0,"Chicago, IL",26.7,12.4,224.81,96,23,4.1
+322,Maria Gacia,Dermatology,,"Phoenix, AZ",42.8,10.2,199.14,97,14,4.3
+323,Alex Johson,Dermatology,12.0,"New York, NY",35.8,11.0,,96,19,4.5
+324,Alex Johnson,Oncology,14.0,"New York, NY",27.4,8.1,139.27,93,17,3.4
+325,Maria Garcia,Dermatology,17.0,"Houston, TX",31.5,7.9,187.99,98,16,3.2
+326,John Doe,Pediatrics,,"Phoenix, AZ",30.7,8.2,,95,21,4.8
+327,Maria Garcia,Oncology,14.0,"New York, NY",29.3,4.7,163.23,97,23,4.8
+328,Jane Smith,Pediatrics,-16.0,"New York, NY",28.5,8.0,267.72,98,15,5.3
+329,Alex Johnson,Dermatology,17.0,"Houston, TX",30.1,9.0,,93,25,3.7
+330,Maria Garcia,Oncology,10.0,"New York, NY",30.2,9.4,321.13,99,19,4.0
+331,Alex Johnson,Dermatology,-10.0,"Phoenix, AZ",,4.0,289.82,96,17,3.8
+332,Alex Johnson,Oncology,15.0,"Chicago, IL",38.4,5.6,139.41,95,23,4.6
+333,John Doe,Pediatrics,14.0,"New York, NY",16.8,7.6,,97,19,2.7
+334,John Doe,Oncology,11.0,"Los Angeles, CA",26.7,7.8,239.72,92,17,3.7
+335,Jane Smith,Oncology,17.0,"New York, NY",27.6,5.7,121.15,96,14,4.0
+336,John Doe,Oncology,,"Chicago, IL",29.8,9.3,,97,16,4.3
+337,Jane Smith,Pediatrics,14.0,"Houston, TX",26.1,5.6,224.44,95,32,3.5
+338,Jane Smith,Oncology,-15.0,"Houston, TX",40.5,8.4,177.91,94,21,4.7
+339,Alex Johnson,Pediatrics,16.0,"Chicago, IL",27.6,6.7,215.27,96,18,4.3
+340,Alex Johnson,Dermatology,18.0,"Houston, TX",27.8,8.0,124.27,99,24,3.5
+341,Maria Garcia,Oncology,14.0,"New York, NY",26.3,3.6,,94,25,5.1
+342,Alex Johnson,Orthopedics,19.0,"Phoenix, AZ",36.2,13.2,,97,22,3.3
+343,Maria Garcia,Pediatrics,14.0,"New York, NY",28.0,7.4,,97,22,3.7
+344,Jane Smith,Orthopedics,12.0,"Phoenix, AZ",29.7,9.5,135.31,93,20,4.6
+345,John Doe,Oncology,,"Los Angeles, CA",27.0,6.9,168.88,95,16,5.3
+346,Jane Smith,Oncology,16.0,"Chicago, IL",27.1,8.8,,95,15,2.5
+347,MariaGarcia,Pediatrics,16.0,"Chicago, IL",28.6,9.6,249.17,94,15,4.1
+348,John Doe,Oncology,15.0,"New York, NY",35.9,3.5,99.27,95,19,3.8
+349,Jane Smith,Oncology,13.0,"Houston, TX",32.0,7.0,264.93,95,16,5.1
+350,John Doe,Dermatology,17.0,"Chicago, IL",34.4,7.0,164.48,96,20,3.4
+351,Alex Johnson,Dermatology,11.0,"Phoenix, AZ",,9.6,239.76,92,26,3.8
+352,John Doe,Dermatology,-14.0,"Houston, TX",,6.3,240.27,95,21,4.3
+353,Jane Smith,Oncology,13.0,"Phoenix, AZ",25.5,5.7,210.81,92,19,4.3
+354,Jane Smith,Pediatrics,20.0,"Chicago, IL",34.1,8.3,272.16,92,22,5.0
+355,Jane Smith,Oncology,16.0,"Phoenix, AZ",35.1,4.4,171.55,94,15,4.4
+356,John Doe,Dermatology,18.0,"Los Angeles, CA",,4.5,239.33,95,24,4.0
+357,Alex Johnson,Dermatology,14.0,"Phoenix, AZ",30.6,5.9,190.78,94,19,3.7
+358,Jane Smith,Oncology,14.0,"New York, NY",26.2,11.2,239.0,97,22,3.9
+359,Alex Johnson,Dermatology,16.0,"Los Angeles, CA",34.2,7.4,,92,23,4.3
+360,Maria Garcia,Pediatrics,17.0,"New York, NY",29.4,7.6,205.7,93,14,4.3
+361,Maria Garcia,Oncology,,"Phoenix, AZ",32.6,5.2,176.22,93,19,4.5
+362,Jane Smith,Dermatology,18.0,"Houston, TX",33.1,8.7,,99,11,4.9
+363,Alex Johnson,Pediatrics,19.0,"New York, NY",25.9,7.7,146.76,97,17,3.0
+364,John Doe,Oncology,18.0,"Houston, TX",25.9,7.9,216.53,92,20,4.7
+365,John Doe,Oncology,,"Los Angeles, CA",33.4,9.5,218.58,93,16,4.2
+366,John Doe,Pediatrics,21.0,"Phoenix, AZ",29.8,5.5,252.88,93,18,3.5
+367,Alex Johnson,Oncology,12.0,"Houston, TX",,8.7,247.07,96,17,4.0
+368,Jane Smith,Oncology,18.0,"New York, NY",32.1,6.4,180.49,97,27,3.9
+369,John Doe,Oncology,7.0,"Chicago, IL",31.1,7.8,167.76,92,22,3.5
+370,John Doe,Pediatrics,13.0,"Los Angeles, CA",30.2,5.6,283.09,96,21,3.1
+371,John Doe,Orthopedics,13.0,"Los Angeles, CA",29.4,5.0,141.06,96,24,3.6
+372,John Doe,Oncology,11.0,"Houston, TX",25.5,9.0,172.97,96,17,4.1
+373,Jane Smith,Dermatology,14.0,"Los Angeles, CA",28.8,7.4,190.45,92,26,3.6
+374,Alex Johnson,Dermatology,13.0,"Phoenix, AZ",25.2,2.0,135.97,97,21,3.6
+375,Alex Johnson,Orthopedics,12.0,"Los Angeles, CA",,9.9,171.42,93,20,4.2
+376,John Doe,Dermatology,14.0,"Phoenix, AZ",37.4,8.0,191.53,95,17,4.3
+377,Alex Johnson,Oncology,12.0,"Los Angeles, CA",41.2,11.7,161.07,96,15,4.2
+378,Alex Johnson,Pediatrics,,"Phoenix, AZ",34.4,6.5,179.82,95,22,3.8
+379,Alex Johnson,Dermatology,,"New York, NY",,3.0,194.91,96,20,4.7
+380,Alex Johnson,Oncology,11.0,"New York, NY",31.8,2.0,270.62,95,24,4.0
+381,Maria Garcia,Neurology,16.0,"Los Angeles, CA",42.0,5.9,179.73,95,16,3.6
+382,Maria Garcia,Oncology,,"Los Angeles, CA",27.0,12.2,181.09,95,18,4.7
+383,Maria Garcia,Pediatrics,12.0,"Los Angeles, CA",33.1,12.4,211.57,93,14,4.8
+384,Alex Johnson,Oncology,13.0,"Phoenix, AZ",30.0,10.2,,94,24,4.8
+385,Maria Garcia,Dermatology,11.0,"Chicago, IL",28.1,8.7,49.84,97,18,3.8
+386,Maria Garcia,Oncology,16.0,"Los Angeles, CA",24.5,9.5,208.42,96,25,4.6
+387,John Doe,Oncology,20.0,"Los Angeles, CA",30.2,8.7,216.8,96,24,3.8
+388,Jane Smith,Oncology,12.0,"Houston, TX",35.8,7.7,281.63,93,14,3.6
+389,John Doe,Orthopedics,13.0,"Los Angeles, CA",30.2,8.7,203.78,92,17,3.8
+390,Jane Smith,Oncology,18.0,"Chicago, IL",36.8,5.0,158.43,99,18,3.2
+391,Jane Smith,General Practice,14.0,"New York, NY",33.7,7.3,223.24,89,22,4.7
+392,Jane Smith,Oncology,14.0,"Houston, TX",31.8,6.8,140.51,95,17,3.7
+393,John Doe,Dermatology,,"Houston, TX",32.8,9.9,222.0,97,19,3.8
+394,Alex Johnson,Pediatrics,16.0,"Houston, TX",26.5,8.0,138.65,95,18,4.3
+395,John Doe,Pediatrics,11.0,"New York, NY",20.6,8.6,198.33,95,24,3.7
+396,Alex Johnson,Oncology,17.0,"Phoenix, AZ",33.7,7.1,235.22,98,15,3.9
+397,Alex Johnson,Pediatrics,17.0,"Phoenix, AZ",25.5,10.2,79.47,95,15,3.3
+398,Alex Johson,Cardiology,15.0,"New York, NY",26.7,6.2,274.68,92,20,3.5
+399,John Doe,Dermatology,17.0,"Houston, TX",23.0,5.9,,95,16,4.9
+400,John Doe,Dermatology,13.0,"Chicago, IL",24.2,4.2,213.58,97,21,4.2
+401,Alex Johnson,Dermatology,14.0,"New York, NY",37.2,12.3,254.69,94,11,3.6
+402,Alex Johnson,Dermatology,16.0,"Houston, TX",28.9,9.3,250.78,96,23,4.3
+403,Alex Johnson,Oncology,14.0,"Houston, TX",34.7,9.4,257.19,92,25,4.4
+404,Maria Garcia,Dermatology,17.0,"Los Angeles, CA",,5.9,203.32,95,26,4.2
+405,John Doe,Dermatology,13.0,"New York, NY",30.4,8.4,195.7,93,12,3.8
+406,John Doe,Orthopedics,17.0,"Phoenix, AZ",34.5,2.0,306.39,98,21,4.0
+407,Jane Smith,Oncology,15.0,"Houston, TX",42.8,5.9,214.16,94,23,3.9
+408,Alex Johnson,Neurology,17.0,"Phoenix, AZ",20.7,7.4,257.44,97,22,4.2
+409,Alex Johnson,Dermatology,12.0,"Phoenix, AZ",28.5,8.0,176.94,97,19,3.6
+410,Maria Garcia,Cardiology,13.0,"Los Angeles, CA",29.1,8.8,265.64,93,20,4.6
+411,Jane Smith,Pediatrics,21.0,"Los Angeles, CA",36.5,7.5,150.81,97,16,4.2
+412,Maria Garcia,Pediatrics,15.0,"New York, NY",27.4,7.8,251.53,96,25,4.5
+413,Alex Jhnson,Pediatrics,,"New York, NY",34.5,5.0,211.83,96,27,3.6
+414,Jane Smith,Oncology,,"Houston, TX",32.4,4.9,306.47,92,26,3.8
+415,Jane Smith,Oncology,7.0,"Chicago, IL",24.8,8.8,,97,30,4.2
+416,Alex Johnson,Oncology,19.0,"Houston, TX",29.3,4.9,288.38,94,13,3.7
+417,Maria Garcia,Cardiology,15.0,"Phoenix, AZ",27.2,4.4,186.96,97,22,3.5
+418,John Doe,Pediatrics,10.0,"New York, NY",30.1,5.8,142.88,96,24,4.1
+419,Jane Smith,Oncology,15.0,"New York, NY",23.2,8.4,300.46,95,19,3.6
+420,John Doe,Oncology,9.0,"New York, NY",28.4,4.7,187.24,95,14,3.2
+421,Alex Johnson,Dermatology,15.0,"New York, NY",18.3,9.1,245.27,97,17,4.5
+422,Jane Smith,Dermatology,14.0,"Chicago, IL",,7.7,133.02,95,12,4.4
+423,John Doe,Oncology,18.0,"Houston, TX",31.0,5.0,237.74,95,19,4.2
+424,Alex Johnson,Neurology,10.0,"New York, NY",35.9,10.6,162.08,96,17,5.1
+425,Jae Smith,Oncology,,"Chicago, IL",42.3,9.3,,97,26,4.0
+426,Jane Smith,Oncology,12.0,"Los Angeles, CA",26.8,5.8,217.63,96,25,3.6
+427,Jane Smith,Dermatology,19.0,"Chicago, IL",30.6,8.4,159.89,98,24,3.6
+428,Alex Johnson,Oncology,,"New York, NY",22.1,9.4,209.02,94,16,3.2
+429,Jane Smith,Oncology,16.0,"New York, NY",26.1,9.0,197.06,99,21,3.9
+430,John Doe,Dermatology,13.0,"Chicago, IL",,9.9,208.58,96,26,3.7
+431,Alex Johnson,Dermatology,13.0,"New York, NY",27.2,7.8,200.15,92,20,4.0
+432,Jane Smith,Pediatrics,17.0,"New York, NY",,9.2,179.67,97,20,5.1
+433,Alex Johnson,Cardiology,14.0,"Chicago, IL",36.1,8.1,216.8,95,13,3.8
+434,Jane Smith,Pediatrics,19.0,"Houston, TX",24.8,11.1,157.91,97,29,4.6
+435,Jane Smith,General Practice,14.0,"Phoenix, AZ",36.0,11.7,233.38,91,13,3.8
+436,John Doe,Dermatology,18.0,"Houston, TX",27.3,6.3,221.47,93,27,4.2
+437,Maria Garcia,Dermatology,16.0,"Chicago, IL",21.1,8.7,183.28,96,18,3.6
+438,Alex Johnson,Orthopedics,13.0,"New York, NY",35.2,9.8,234.1,94,19,3.4
+439,Maria Garcia,Pediatrics,14.0,"Houston, TX",23.1,10.8,209.27,95,19,4.0
+440,Jane Smith,Dermatology,,"Chicago, IL",21.4,7.7,197.22,97,12,3.8
+441,Alex Johnson,Oncology,19.0,"Chicago, IL",35.8,6.7,100.66,97,13,4.0
+442,Jane Smith,Pediatrics,15.0,"Los Angeles, CA",,6.1,131.12,97,15,4.4
+443,John Doe,Pediatrics,,"New York, NY",30.4,9.2,,94,26,4.0
+444,Maria Garcia,Pediatrics,16.0,"Los Angeles, CA",22.1,6.1,53.56,91,18,3.3
+445,Alex Johnson,Pediatrics,16.0,"Phoenix, AZ",32.4,7.0,178.64,93,24,4.2
+446,Jane Smith,Cardiology,13.0,"Chicago, IL",31.4,7.9,280.22,92,19,3.6
+447,Maria Garcia,Dermatology,13.0,"Chicago, IL",26.9,8.6,219.92,97,12,4.1
+448,John Doe,Oncology,,"New York, NY",28.1,11.3,242.5,92,17,3.6
+449,Maria Garcia,Oncology,13.0,"Los Angeles, CA",20.5,6.5,193.98,98,27,3.7
+450,Jane Smith,General Practice,14.0,"Los Angeles, CA",30.4,10.1,,91,29,4.6
+451,Maria Garcia,Dermatology,16.0,"New York, NY",33.0,6.9,191.79,97,25,3.2
+452,Maria Garcia,Pediatrics,20.0,"Los Angeles, CA",,7.0,206.69,96,18,4.5
+453,Maria Garcia,Dermatology,11.0,"New York, NY",35.6,8.9,221.47,96,23,3.5
+454,John Doe,Dermatology,17.0,"Los Angeles, CA",19.8,10.4,218.58,96,21,3.4
+455,Jane Smith,Pediatrics,11.0,"New York, NY",32.7,9.3,281.93,94,18,4.6
+456,Jane Smith,Pediatrics,13.0,"Phoenix, AZ",35.1,8.4,161.74,93,13,4.8
+457,Maria Garcia,Pediatrics,20.0,"New York, NY",38.1,8.6,175.01,95,17,4.9
+458,Jane Smith,Dermatology,,"New York, NY",34.6,9.4,206.52,95,22,4.6
+459,Jane Smith,Pediatrics,15.0,"Los Angeles, CA",22.0,6.5,155.35,96,15,5.0
+460,Alex Johnson,Oncology,16.0,"Los Angeles, CA",36.5,6.2,179.92,92,16,4.3
+461,Maria Garcia,Dermatology,7.0,"New York, NY",28.5,8.3,316.06,95,20,4.2
+462,Maria Garcia,Neurology,17.0,"New York, NY",30.4,6.2,241.36,96,7,4.0
+463,Maria Garcia,Dermatology,14.0,"Los Angeles, CA",24.6,6.6,208.72,95,22,3.8
+464,Jane Smith,Dermatology,12.0,"Chicago, IL",33.3,2.0,,98,21,3.8
+465,Jane Smith,Orthopedics,15.0,"Houston, TX",22.1,12.7,184.56,98,23,3.9
+466,John Doe,Dermatology,11.0,"Phoenix, AZ",33.2,6.9,241.08,92,24,4.0
+467,John Doe,Dermatology,,"New York, NY",38.6,8.1,206.2,97,20,4.2
+468,Jane Smith,Dermatology,10.0,"Los Angeles, CA",,13.0,128.84,96,13,4.2
+469,Maria Garcia,Dermatology,15.0,"Houston, TX",30.2,9.2,244.08,95,22,3.5
+470,Jane Smith,Dermatology,14.0,"New York, NY",26.6,8.4,203.35,95,10,4.8
+471,Jane Smith,Pediatrics,16.0,"Los Angeles, CA",26.6,9.4,230.59,95,22,4.3
+472,Jane Smith,General Practice,16.0,"Los Angeles, CA",33.5,8.5,,96,19,4.2
+473,Jane Smith,Oncology,-15.0,"Chicago, IL",30.6,8.5,163.46,96,25,4.7
+474,Alex Johnson,Pediatrics,12.0,"New York, NY",,1.7,266.99,97,18,3.5
+475,Jane Smith,Cardiology,,"Houston, TX",36.7,7.9,131.17,95,21,3.5
+476,Jane Smith,Pediatrics,14.0,"Phoenix, AZ",32.1,10.5,271.22,96,20,4.8
+477,Jane Smith,Oncology,13.0,"Chicago, IL",33.6,4.8,219.68,91,16,4.0
+478,John Doe,Pediatrics,16.0,"Phoenix, AZ",23.1,8.3,347.09,97,27,3.7
+479,Alex Johnson,Dermatology,25.0,"New York, NY",30.4,5.6,184.81,95,20,4.4
+480,John Doe,Pediatrics,15.0,"Houston, TX",34.7,6.1,134.49,91,17,3.9
+481,Maria Garcia,Pediatrics,14.0,"Houston, TX",28.4,8.2,251.19,98,19,4.3
+482,Jane Smith,Pediatrics,10.0,"Houston, TX",,6.9,,94,19,4.1
+483,Maria Garia,Dermatology,-14.0,"Los Angeles, CA",26.4,8.9,239.93,93,19,4.3
+484,John Doe,Pediatrics,17.0,"Houston, TX",33.2,9.2,,96,26,3.4
+485,John Doe,Dermatology,14.0,"Los Angeles, CA",30.8,9.0,138.17,95,18,4.3
+486,Alex Johnson,Oncology,17.0,"Houston, TX",25.0,5.0,,98,19,3.6
+487,Maria Garcia,Oncology,9.0,"Phoenix, AZ",24.7,10.7,215.54,96,34,4.0
+488,Jane Smith,Dermatology,13.0,"Phoenix, AZ",26.5,7.9,107.87,97,21,3.8
+489,Maria Garcia,Oncology,14.0,"Houston, TX",31.2,7.4,,94,16,4.5
+490,Alex Johnson,Pediatrics,13.0,"Houston, TX",29.8,7.8,224.62,98,24,3.6
+491,Maria Garcia,Dermatology,19.0,"Los Angeles, CA",23.0,8.7,159.29,95,36,3.9
+492,Maria Garcia,Oncology,16.0,"Los Angeles, CA",,9.5,227.47,95,20,4.1
+493,Jane Smith,Pediatrics,19.0,"Los Angeles, CA",25.2,7.0,174.28,92,19,4.6
+494,John Doe,Pediatrics,15.0,"New York, NY",34.5,6.9,216.31,92,20,4.6
+495,Alex Johnson,Dermatology,15.0,"Los Angeles, CA",33.2,6.9,212.12,99,17,4.6
+496,Maria Garcia,Pediatrics,11.0,"Los Angeles, CA",36.1,3.1,226.69,95,24,4.5
+497,Maria Garcia,Cardiology,14.0,"New York, NY",23.4,2.0,258.78,96,19,3.9
+498,John Doe,Oncology,16.0,"Houston, TX",41.6,3.9,249.5,95,22,4.3
+499,Maria Garcia,Oncology,17.0,"Chicago, IL",33.0,8.5,323.86,94,14,5.0
+500,Alex Johnson,Dermatology,12.0,"New York, NY",23.0,9.7,185.13,96,15,3.4
+501,Alex Johnson,Pediatrics,,"Los Angeles, CA",32.9,9.9,287.22,94,26,2.6
+502,John Doe,Oncology,17.0,"New York, NY",31.8,7.3,107.12,92,19,4.0
+503,Jane Smith,Dermatology,18.0,"Phoenix, AZ",22.9,9.6,169.4,92,27,4.0
+504,John Doe,Dermatology,10.0,"Phoenix, AZ",33.4,11.3,,94,27,4.1
+505,John Doe,Pediatrics,19.0,"Houston, TX",,6.2,181.25,95,17,3.0
+506,Jane Smith,Pediatrics,10.0,"Los Angeles, CA",26.2,8.1,236.34,95,19,4.1
+507,John Doe,Pediatrics,19.0,"Phoenix, AZ",28.4,4.6,218.93,94,15,4.3
+508,Alex Johnson,Pediatrics,14.0,"New York, NY",27.1,11.1,150.41,93,18,4.2
+509,Alex Jhnson,Pediatrics,19.0,"Los Angeles, CA",21.9,5.9,107.46,99,17,4.2
+510,Jane Smith,Dermatology,19.0,"Houston, TX",23.6,8.3,210.84,98,19,3.9
+511,John Doe,Pediatrics,13.0,"Los Angeles, CA",27.1,8.1,271.51,95,20,3.1
+512,John Doe,Dermatology,14.0,"Los Angeles, CA",33.2,11.0,242.76,93,13,3.6
+513,Jane Smith,Dermatology,13.0,"New York, NY",36.3,7.1,170.85,97,15,3.5
+514,Maria Garcia,Pediatrics,14.0,"Los Angeles, CA",28.2,9.1,182.71,97,15,4.2
+515,Alex Johnson,Dermatology,18.0,"New York, NY",27.0,8.2,108.81,92,22,4.2
+516,Maria Garcia,Pediatrics,14.0,"New York, NY",33.0,9.3,,92,15,4.5
+517,Maria Garcia,Pediatrics,20.0,"Los Angeles, CA",24.9,7.6,196.47,96,15,4.4
+518,Maria Garcia,Pediatrics,,"Houston, TX",28.0,7.0,97.57,93,22,4.2
+519,Alex Johnson,Cardiology,13.0,"Houston, TX",30.6,8.1,146.99,94,17,3.5
+520,Maria Garcia,Pediatrics,12.0,"Chicago, IL",25.7,8.4,196.93,89,20,3.5
+521,Jane Smith,Dermatology,15.0,"Phoenix, AZ",30.8,9.6,177.69,97,22,4.0
+522,John Doe,Pediatrics,14.0,"Los Angeles, CA",19.9,7.7,232.81,92,24,3.9
+523,Maria Garcia,Oncology,,"Los Angeles, CA",38.7,10.6,172.74,98,21,4.2
+524,Alex Johnson,General Practice,9.0,"New York, NY",37.2,6.5,194.22,94,18,4.3
+525,Jane Smith,Cardiology,11.0,"Houston, TX",32.3,8.9,256.46,94,25,4.9
+526,Maria Garcia,Oncology,11.0,"Los Angeles, CA",40.8,6.4,174.57,92,23,3.8
+527,Jane Smith,Oncology,17.0,"Houston, TX",28.9,2.5,258.7,97,20,3.3
+528,John Doe,Dermatology,10.0,"Chicago, IL",28.9,7.4,213.09,97,20,3.6
+529,Jane Smith,Pediatrics,18.0,"Los Angeles, CA",,7.5,226.33,95,26,4.0
+530,Alex Johnson,Dermatology,12.0,"New York, NY",30.2,7.4,151.81,91,22,4.3
+531,Maria Garcia,Oncology,14.0,"Houston, TX",27.1,6.1,160.6,96,21,4.1
+532,Jane Smith,Dermatology,,"Phoenix, AZ",26.2,7.4,262.09,93,23,4.5
+533,Maria Garcia,Oncology,18.0,"Houston, TX",31.2,7.3,216.25,96,16,3.4
+534,Alex Johnson,Pediatrics,19.0,"Houston, TX",25.2,2.3,,97,26,3.2
+535,John Doe,Oncology,14.0,"Phoenix, AZ",34.5,7.0,,94,23,3.8
+536,Maria Garcia,Dermatology,-11.0,"Houston, TX",29.7,10.7,,93,14,4.2
+537,Maria Garcia,Oncology,17.0,"Chicago, IL",31.3,12.2,198.68,99,25,3.6
+538,John Doe,Pediatrics,10.0,"Los Angeles, CA",39.2,7.4,262.75,95,22,4.0
+539,John Doe,Dermatology,16.0,"Los Angeles, CA",36.7,8.0,251.14,95,19,3.7
+540,John Doe,Oncology,12.0,"Los Angeles, CA",34.1,7.5,157.79,96,23,3.8
+541,John Doe,Orthopedics,9.0,"Houston, TX",29.4,8.3,153.59,93,27,4.6
+542,Maria Garcia,Dermatology,14.0,"Phoenix, AZ",38.8,4.2,152.26,96,23,3.5
+543,John Doe,Cardiology,12.0,"Houston, TX",,8.0,189.81,95,18,3.6
+544,John Doe,Dermatology,16.0,"Los Angeles, CA",26.7,8.4,192.52,96,19,2.9
+545,Maria Garcia,Pediatrics,-14.0,"Phoenix, AZ",36.3,7.0,231.45,95,21,5.2
+546,Alex Johnson,Oncology,18.0,"Los Angeles, CA",,6.0,247.26,95,16,3.7
+547,John Doe,Dermatology,11.0,"Los Angeles, CA",23.4,5.2,273.15,97,23,4.0
+548,Jane Smith,General Practice,15.0,"Chicago, IL",39.9,10.8,162.03,93,11,4.1
+549,Jane Smith,Oncology,-14.0,"Chicago, IL",29.2,9.8,197.96,96,16,4.1
+550,Alex Johnson,Pediatrics,12.0,"Houston, TX",39.6,7.8,,95,29,4.8
+551,Jane Smith,Dermatology,20.0,"Chicago, IL",24.2,8.8,354.36,96,16,3.9
+552,John Doe,Pediatrics,15.0,"Phoenix, AZ",22.5,7.6,137.78,93,10,4.1
+553,Jane Smith,Dermatology,18.0,"New York, NY",39.0,10.6,155.05,93,18,4.4
+554,Jane Smith,Pediatrics,,"Phoenix, AZ",26.5,11.6,158.36,91,23,4.2
+555,John Doe,Dermatology,14.0,"Los Angeles, CA",26.6,8.8,212.17,96,13,4.1
+556,Maria Garcia,Pediatrics,14.0,"Los Angeles, CA",30.8,7.0,6.47,92,17,4.8
+557,Alex Johnson,Pediatrics,12.0,"Chicago, IL",,11.9,232.4,93,20,4.0
+558,Alex Johnson,Oncology,14.0,"Los Angeles, CA",35.6,6.0,117.05,95,15,3.7
+559,John Doe,Pediatrics,13.0,"New York, NY",28.2,10.8,236.89,97,17,4.2
+560,Jane Smith,Dermatology,16.0,"Houston, TX",34.8,10.7,252.7,94,24,3.2
+561,John Doe,Cardiology,11.0,"Houston, TX",34.0,9.5,219.55,91,26,3.1
+562,Jane Smith,Pediatrics,9.0,"Phoenix, AZ",28.5,7.2,151.54,93,15,4.7
+563,Jane Smith,Dermatology,11.0,"Houston, TX",25.8,4.6,271.29,98,22,3.6
+564,Alex Johnson,Dermatology,,"Chicago, IL",30.2,10.9,190.6,99,23,4.6
+565,Jon Doe,Dermatology,,"Chicago, IL",27.9,6.5,218.07,95,17,4.3
+566,Alex Johnson,Dermatology,17.0,"Los Angeles, CA",33.5,7.3,231.48,92,19,3.4
+567,Jane Smith,Pediatrics,20.0,"Chicago, IL",27.7,10.6,109.82,94,18,3.9
+568,John Doe,Oncology,,"Chicago, IL",18.5,9.0,193.67,87,21,3.7
+569,John Doe,Pediatrics,9.0,"Houston, TX",31.8,9.6,146.88,94,16,3.6
+570,Maria Garcia,Oncology,,"New York, NY",36.2,7.7,103.36,92,27,3.9
+571,Maria Garcia,Cardiology,15.0,"Los Angeles, CA",20.1,7.9,142.53,93,13,4.0
+572,Maria Garcia,Pediatrics,11.0,"Phoenix, AZ",34.6,5.9,146.17,95,19,3.6
+573,John Doe,Oncology,11.0,"Houston, TX",29.1,9.9,256.14,98,22,4.3
+574,Jane Smith,Pediatrics,15.0,"Los Angeles, CA",21.0,11.9,225.9,97,14,4.1
+575,Alex Johnson,Dermatology,13.0,"Houston, TX",26.0,8.7,247.44,93,15,3.9
+576,Jane Smith,Oncology,,"Chicago, IL",23.9,9.4,257.61,96,19,4.4
+577,John Doe,Dermatology,14.0,"Phoenix, AZ",35.9,9.0,250.65,95,18,3.6
+578,John Doe,Dermatology,19.0,"Phoenix, AZ",29.0,10.0,229.87,96,21,4.1
+579,Aex Johnson,General Practice,15.0,"New York, NY",39.2,5.5,163.69,92,25,3.9
+580,Jne Smith,Pediatrics,16.0,"Los Angeles, CA",31.1,6.3,222.25,92,18,3.8
+581,John Doe,Oncology,12.0,"Phoenix, AZ",,5.9,156.21,91,28,3.6
+582,Alex Johnson,Dermatology,15.0,"Houston, TX",19.9,4.5,216.34,92,26,4.2
+583,Alex Johnson,Pediatrics,11.0,"Los Angeles, CA",29.1,9.1,303.89,95,16,4.4
+584,John Doe,Cardiology,15.0,"Chicago, IL",32.6,9.7,174.67,95,14,3.6
+585,Alex Johnson,Pediatrics,14.0,"New York, NY",29.4,7.7,215.51,91,26,4.1
+586,Maria Garcia,Oncology,,"Chicago, IL",23.5,8.7,84.74,96,18,3.9
+587,John Doe,Dermatology,17.0,"Phoenix, AZ",25.7,10.6,193.3,94,27,4.9
+588,Maria Garcia,Dermatology,8.0,"Chicago, IL",31.8,4.2,215.79,95,18,3.5
+589,Alex Johnson,Pediatrics,13.0,"Houston, TX",28.2,7.3,160.95,96,27,3.7
+590,Jane Smith,Oncology,-15.0,"Houston, TX",26.4,1.0,20.53,92,17,3.7
+591,Alex Johnson,Dermatology,14.0,"Los Angeles, CA",31.4,9.1,214.1,95,21,4.4
+592,Alex Johnson,Dermatology,-13.0,"New York, NY",33.2,10.5,269.47,95,15,4.8
+593,Maria Garcia,Oncology,14.0,"New York, NY",32.5,5.9,185.07,98,22,4.3
+594,Alex Johnson,Dermatology,13.0,"Houston, TX",23.2,8.6,296.61,97,16,3.8
+595,Alex Johnson,Oncology,12.0,"Chicago, IL",31.5,7.0,148.87,95,18,4.2
+596,John Doe,Oncology,13.0,"Chicago, IL",40.5,6.2,183.32,89,20,4.0
+597,Alex Johnson,Dermatology,12.0,"Los Angeles, CA",25.9,7.9,,95,16,4.2
+598,Maria Garcia,Dermatology,14.0,"Phoenix, AZ",30.0,9.1,47.06,94,19,4.4
+599,Maria Gacia,Oncology,12.0,"Phoenix, AZ",38.7,10.3,237.55,93,23,4.4
+600,John Doe,Pediatrics,9.0,"Los Angeles, CA",37.1,7.6,247.82,92,20,3.6
+601,John Doe,Cardiology,11.0,"Phoenix, AZ",24.3,7.7,224.03,96,24,4.1
+602,Maria Garcia,Oncology,11.0,"Houston, TX",26.3,8.3,296.84,97,22,4.3
+603,Alex Johnson,Neurology,11.0,"New York, NY",,8.1,,91,22,4.4
+604,Alex Johnson,Oncology,15.0,"New York, NY",,10.7,,95,20,4.3
+605,AlexJohnson,Dermatology,13.0,"Phoenix, AZ",,6.6,197.25,92,31,3.8
+606,Maria Garcia,Cardiology,,"Phoenix, AZ",29.0,7.4,244.04,96,27,5.1
+607,Maria Garcia,Oncology,12.0,"Phoenix, AZ",39.7,10.8,173.44,98,23,4.4
+608,Alex Johnson,Oncology,14.0,"New York, NY",24.3,8.9,167.52,92,19,4.0
+609,Alex Johnson,Neurology,,"Phoenix, AZ",29.1,7.5,188.26,96,16,4.3
+610,Maria Garcia,Pediatrics,17.0,"Chicago, IL",36.1,6.1,,95,20,3.0
+611,Maria Garcia,Dermatology,15.0,"Chicago, IL",27.2,8.3,272.5,90,22,4.6
+612,Jane Smith,Oncology,17.0,"Houston, TX",23.6,7.1,206.54,96,17,4.9
+613,Jane Smith,Pediatrics,13.0,"Los Angeles, CA",37.3,8.7,167.29,95,18,4.5
+614,John Doe,Oncology,16.0,"Houston, TX",22.8,9.4,208.74,94,16,5.2
+615,Jane Smith,Oncology,15.0,"New York, NY",31.8,10.8,,97,14,4.0
+616,Ale Johnson,Oncology,10.0,"Chicago, IL",29.0,6.8,90.79,96,20,3.8
+617,John Doe,Dermatology,15.0,"Los Angeles, CA",35.6,7.0,245.79,94,19,3.9
+618,Jane Smith,Dermatology,16.0,"Chicago, IL",35.7,9.9,235.19,93,16,3.9
+619,Maria Garcia,Oncology,17.0,"Phoenix, AZ",30.3,6.3,162.51,97,24,3.6
+620,Maia Garcia,Pediatrics,20.0,"New York, NY",28.6,9.6,141.6,96,31,4.9
+621,Maria Garcia,Oncology,9.0,"Los Angeles, CA",24.9,9.1,224.99,99,15,3.6
+622,Maria Garcia,Pediatrics,13.0,"Houston, TX",33.0,6.9,181.85,96,18,3.5
+623,John Doe,Oncology,17.0,"New York, NY",32.0,9.3,252.73,92,19,4.1
+624,Alex Johnson,Pediatrics,19.0,"Houston, TX",35.4,9.2,156.59,96,21,4.4
+625,Maria Garcia,Oncology,11.0,"Houston, TX",33.4,7.3,250.04,94,19,4.0
+626,Alex Johnson,Dermatology,11.0,"Houston, TX",24.7,8.4,215.58,98,29,3.2
+627,John Doe,Pediatrics,15.0,"Phoenix, AZ",38.9,7.4,204.03,95,16,4.4
+628,Maria Garcia,Neurology,22.0,"Houston, TX",,9.8,129.28,91,20,3.9
+629,John Doe,Oncology,13.0,"Chicago, IL",26.9,8.7,218.68,90,23,3.7
+630,Jane Smith,Pediatrics,12.0,"Los Angeles, CA",26.7,5.1,256.34,95,26,3.8
+631,Maria Garcia,Oncology,13.0,"Los Angeles, CA",19.9,4.0,247.51,99,24,3.9
+632,Alex Johnson,Oncology,,"New York, NY",33.6,9.0,278.48,93,14,4.1
+633,John Doe,Dermatology,16.0,"Chicago, IL",27.4,9.6,173.2,94,18,4.0
+634,Alex Johnson,Oncology,13.0,"Houston, TX",29.7,8.9,225.44,99,23,3.9
+635,Maria Garcia,Pediatrics,10.0,"Chicago, IL",33.7,8.8,218.46,94,23,4.2
+636,Alex Johnson,Pediatrics,-13.0,"Houston, TX",26.4,6.9,194.91,94,28,4.2
+637,John Doe,General Practice,-14.0,"Houston, TX",29.0,11.6,95.71,98,23,3.5
+638,Maria Garcia,Dermatology,15.0,"Los Angeles, CA",31.6,11.8,189.84,95,23,3.4
+639,Jane Smith,Dermatology,14.0,"Phoenix, AZ",,6.1,162.58,95,17,4.0
+640,John Doe,Dermatology,,"New York, NY",27.5,7.1,283.87,92,25,3.4
+641,John Doe,Cardiology,20.0,"Los Angeles, CA",28.8,9.2,212.41,95,11,4.0
+642,Alex Johnson,Pediatrics,17.0,"Houston, TX",28.7,9.6,168.96,95,19,4.7
+643,Alex Johnson,Pediatrics,17.0,"New York, NY",34.9,8.9,315.78,95,16,4.0
+644,Maria Garcia,Pediatrics,11.0,"Houston, TX",,9.5,157.06,95,15,4.7
+645,John Doe,Oncology,7.0,"Los Angeles, CA",26.7,9.0,198.03,93,16,3.6
+646,Jane Smith,Cardiology,13.0,"Houston, TX",35.7,6.5,142.45,91,20,3.8
+647,Jane Smith,Dermatology,15.0,"New York, NY",18.4,6.1,139.86,92,13,3.7
+648,Alex Johnson,Pediatrics,-13.0,"Houston, TX",41.6,8.3,203.26,97,24,4.5
+649,Maria Garcia,Dermatology,18.0,"Los Angeles, CA",30.3,5.7,249.86,93,12,4.3
+650,John Doe,Dermatology,18.0,"Houston, TX",25.7,11.7,194.59,96,14,4.5
+651,Jane Smith,Pediatrics,13.0,"New York, NY",35.2,7.3,135.7,99,20,3.7
+652,Jane Smith,Pediatrics,10.0,"Chicago, IL",37.7,7.6,215.4,95,15,4.0
+653,John Doe,Pediatrics,21.0,"Chicago, IL",31.8,8.0,273.75,98,19,4.3
+654,John Doe,Pediatrics,-19.0,"Phoenix, AZ",34.2,7.3,216.41,95,18,4.9
+655,Maria Garcia,Oncology,14.0,"Phoenix, AZ",28.8,7.6,291.54,94,21,4.2
+656,Alex Johnson,Dermatology,10.0,"Los Angeles, CA",31.1,6.2,225.19,93,22,4.0
+657,Maria Garcia,Oncology,14.0,"Houston, TX",24.0,4.7,270.1,96,18,3.6
+658,Maria Garcia,Oncology,14.0,"Houston, TX",26.9,11.7,296.3,93,22,4.6
+659,John Doe,Oncology,16.0,"Houston, TX",,11.3,218.08,98,25,4.6
+660,John Doe,Pediatrics,12.0,"Los Angeles, CA",37.9,6.3,189.88,95,19,3.2
+661,Maria Garcia,Dermatology,-15.0,"Los Angeles, CA",28.2,6.1,235.62,96,18,4.1
+662,Maria Garcia,Pediatrics,14.0,"Houston, TX",25.1,10.5,,95,20,3.4
+663,John Doe,Pediatrics,12.0,"New York, NY",27.4,8.2,199.2,97,16,5.0
+664,Alex Johnson,Oncology,14.0,"Los Angeles, CA",34.4,7.1,149.58,97,23,4.4
+665,Jane Smith,General Practice,10.0,"Phoenix, AZ",29.2,8.6,209.65,93,23,4.2
+666,John Doe,Pediatrics,16.0,"New York, NY",27.2,5.0,190.12,93,22,4.5
+667,John Doe,Pediatrics,9.0,"Chicago, IL",,9.9,213.35,93,22,3.8
+668,John Doe,Dermatology,12.0,"Houston, TX",24.3,3.6,203.19,95,21,4.0
+669,John Doe,Pediatrics,12.0,"Phoenix, AZ",29.2,7.8,164.93,94,18,3.5
+670,Jane Smith,Oncology,20.0,"Phoenix, AZ",,11.6,272.85,95,29,4.0
+671,John Doe,Cardiology,,"Phoenix, AZ",22.4,8.5,,97,26,4.4
+672,Jane Smith,Pediatrics,14.0,"Phoenix, AZ",24.1,9.1,231.82,99,26,5.0
+673,Maria Garcia,Oncology,19.0,"Houston, TX",34.0,10.4,274.49,92,23,2.8
+674,Jane Smith,Oncology,15.0,"Phoenix, AZ",31.5,4.8,233.16,94,26,4.8
+675,John Doe,Pediatrics,15.0,"Phoenix, AZ",31.4,10.9,155.15,93,21,4.1
+676,Jane Smith,Oncology,,"New York, NY",28.4,7.6,196.51,98,26,4.1
+677,John Doe,Pediatrics,13.0,"Los Angeles, CA",28.2,8.0,,92,22,3.9
+678,John Doe,Dermatology,16.0,"Chicago, IL",30.4,8.0,290.93,97,24,4.2
+679,Maria Garcia,Dermatology,19.0,"Houston, TX",31.1,4.4,130.26,93,24,2.8
+680,John Doe,Oncology,14.0,"Chicago, IL",37.8,8.1,197.04,94,23,3.9
+681,Jane Smith,Oncology,14.0,"Chicago, IL",28.0,7.4,174.74,94,21,3.4
+682,Alex Johnson,Cardiology,14.0,"Los Angeles, CA",36.5,6.5,,94,16,3.5
+683,Jane Smith,Oncology,15.0,"Houston, TX",24.6,8.5,233.79,97,17,4.4
+684,John Doe,Oncology,16.0,"New York, NY",32.9,8.1,210.77,94,20,3.2
+685,Alex Johnson,Oncology,17.0,"Los Angeles, CA",27.2,7.9,296.11,98,22,3.6
+686,Maria Garcia,Oncology,16.0,"Phoenix, AZ",24.6,7.8,247.52,93,19,4.0
+687,Alex Johnson,Dermatology,12.0,"Phoenix, AZ",39.1,9.9,251.7,97,19,3.5
+688,Maria Garcia,Oncology,24.0,"Chicago, IL",30.8,6.4,148.6,95,16,3.3
+689,John Doe,Pediatrics,20.0,"New York, NY",35.0,9.4,167.71,92,18,4.1
+690,Maria Garcia,Pediatrics,16.0,"Chicago, IL",32.6,6.2,,93,18,3.5
+691,Maria Garcia,Pediatrics,12.0,"Phoenix, AZ",34.1,8.8,183.14,98,24,3.6
+692,Jane Smith,Dermatology,14.0,"Houston, TX",,8.5,193.21,95,26,4.2
+693,Maria Garcia,Pediatrics,15.0,"Los Angeles, CA",24.4,9.3,173.19,95,18,4.0
+694,Alex Johnson,Pediatrics,14.0,"New York, NY",,6.2,159.43,93,18,3.2
+695,Jane Smith,Oncology,-12.0,"Los Angeles, CA",23.6,5.6,214.89,95,16,4.5
+696,John Doe,Pediatrics,18.0,"Los Angeles, CA",33.0,4.8,184.22,98,16,3.6
+697,Maria Garcia,Pediatrics,16.0,"Chicago, IL",22.5,5.8,123.89,96,23,5.2
+698,Alex Johnson,Dermatology,13.0,"Phoenix, AZ",,8.0,205.58,94,29,4.2
+699,John Doe,Pediatrics,14.0,"New York, NY",27.6,9.1,222.46,90,23,3.6
+700,Maria Garcia,Oncology,17.0,"Los Angeles, CA",18.1,7.0,229.96,96,16,4.3
+701,Alex Johnson,Pediatrics,11.0,"New York, NY",28.6,6.9,254.45,90,18,3.2
+702,Maria Garcia,Dermatology,16.0,"New York, NY",24.4,6.1,181.85,95,19,4.1
+703,Jane Smit,Dermatology,15.0,"Phoenix, AZ",29.7,6.8,,95,24,4.6
+704,Maria Garcia,Oncology,15.0,"Los Angeles, CA",,9.5,274.23,96,25,3.6
+705,Alex Johnson,Oncology,18.0,"New York, NY",31.1,7.2,189.73,95,21,4.3
+706,John Doe,Orthopedics,11.0,"New York, NY",21.8,7.1,155.7,96,21,4.8
+707,Alex Johnson,Oncology,15.0,"Los Angeles, CA",29.3,7.9,191.94,96,23,4.2
+708,John Doe,Pediatrics,18.0,"Los Angeles, CA",28.4,4.0,165.13,90,19,5.2
+709,John Doe,Neurology,17.0,"Los Angeles, CA",33.0,10.8,310.17,95,20,3.8
+710,Alex Johnson,Oncology,7.0,"Chicago, IL",36.0,7.0,159.31,93,23,4.0
+711,Maria Garia,Oncology,16.0,"Los Angeles, CA",30.3,6.1,269.73,95,23,4.6
+712,Jane Smith,Pediatrics,17.0,"Phoenix, AZ",28.1,10.3,216.45,97,23,5.1
+713,Jane Smith,Cardiology,3.0,"New York, NY",28.0,10.2,,91,25,3.5
+714,Maria Garcia,Dermatology,16.0,"Chicago, IL",31.6,12.5,148.26,92,25,4.4
+715,John Doe,Oncology,-14.0,"Los Angeles, CA",28.9,8.0,246.2,97,20,4.9
+716,John Doe,Oncology,15.0,"Houston, TX",17.9,9.6,251.43,92,18,3.8
+717,Maria Garcia,Dermatology,15.0,"Chicago, IL",32.9,7.5,207.48,97,19,4.0
+718,John Doe,Oncology,13.0,"Chicago, IL",,12.1,176.33,95,22,4.6
+719,John Do,Dermatology,16.0,"Chicago, IL",28.0,5.0,175.84,92,22,3.3
+720,Alex Johnson,Oncology,20.0,"Chicago, IL",26.6,12.6,158.17,95,28,4.4
+721,John Doe,Oncology,12.0,"New York, NY",29.8,8.0,207.85,97,14,3.9
+722,Alex Johnson,Pediatrics,,"New York, NY",31.1,8.1,255.46,96,15,2.5
+723,Maria Garcia,Cardiology,-10.0,"Chicago, IL",33.7,5.3,193.24,94,30,4.2
+724,Jane Smith,Oncology,17.0,"Houston, TX",41.1,12.7,256.91,94,21,3.8
+725,John Doe,Dermatology,8.0,"Los Angeles, CA",26.5,7.9,240.57,95,20,3.5
+726,Alex Johnson,Dermatology,14.0,"Chicago, IL",35.4,7.3,206.64,96,25,4.0
+727,Jon Doe,Oncology,-10.0,"Chicago, IL",36.7,9.2,263.94,97,25,4.6
+728,Alex Johnson,Pediatrics,15.0,"Los Angeles, CA",33.9,6.3,182.98,94,20,5.2
+729,Alex Johnson,Pediatrics,16.0,"New York, NY",23.9,8.0,235.85,97,18,3.8
+730,Maria Garcia,Pediatrics,12.0,"Chicago, IL",31.4,7.5,245.96,97,25,3.8
+731,Jane Smith,Pediatrics,10.0,"Chicago, IL",41.9,8.1,156.35,97,27,4.2
+732,Maria Garcia,Neurology,13.0,"Chicago, IL",29.1,6.1,78.35,94,21,3.1
+733,Maria arcia,Pediatrics,14.0,"Chicago, IL",28.7,7.9,,94,29,3.5
+734,John Doe,Dermatology,18.0,"Los Angeles, CA",37.9,8.5,155.54,92,17,4.5
+735,Maria Garcia,Pediatrics,16.0,"New York, NY",34.3,10.7,142.81,96,26,4.1
+736,John Doe,Neurology,13.0,"Houston, TX",33.7,9.2,259.72,95,24,3.8
+737,John Doe,Dermatology,16.0,"Los Angeles, CA",23.3,8.5,239.63,92,25,3.7
+738,John Doe,Neurology,9.0,"Houston, TX",29.1,9.5,271.45,97,18,4.0
+739,John Doe,Neurology,16.0,"Houston, TX",35.9,9.0,147.84,95,23,3.0
+740,John Doe,Oncology,15.0,"Los Angeles, CA",40.7,9.8,177.47,91,24,4.3
+741,Jane Smith,Dermatology,13.0,"New York, NY",26.5,5.1,146.5,91,25,3.7
+742,John Doe,Pediatrics,12.0,"New York, NY",30.0,8.0,128.45,95,25,4.6
+743,Maria Garcia,Pediatrics,15.0,"New York, NY",31.1,7.3,173.25,95,16,4.4
+744,Jane Smith,Pediatrics,,"Los Angeles, CA",37.5,8.9,208.9,91,12,5.4
+745,Alex Johnson,Oncology,20.0,"Los Angeles, CA",36.5,3.6,216.39,95,24,4.1
+746,Jane Smith,Dermatology,13.0,"Phoenix, AZ",28.6,10.6,247.9,97,23,4.3
+747,John Doe,Pediatrics,9.0,"Los Angeles, CA",,7.8,213.13,95,14,3.5
+748,Maria Garcia,Dermatology,10.0,"Phoenix, AZ",25.8,6.9,143.92,95,26,4.9
+749,Maria Garcia,Dermatology,,"Houston, TX",23.7,8.3,102.81,95,14,4.0
+750,John Doe,Pediatrics,11.0,"Los Angeles, CA",,11.0,249.4,96,21,3.4
+751,Jane Smith,Oncology,17.0,"Phoenix, AZ",24.7,7.0,225.84,97,24,4.0
+752,Maria Garia,Pediatrics,10.0,"New York, NY",25.7,4.3,215.26,93,21,4.9
+753,Jane Smith,Dermatology,18.0,"Houston, TX",37.7,9.4,,98,16,4.6
+754,Jane Smith,Orthopedics,14.0,"Los Angeles, CA",,10.3,177.75,97,13,4.2
+755,Jane Smith,Oncology,13.0,"Chicago, IL",32.8,8.2,202.67,97,16,4.0
+756,Jane Smith,Pediatrics,16.0,"Houston, TX",33.0,6.0,194.24,98,25,3.9
+757,Maria Garcia,Pediatrics,19.0,"Houston, TX",29.8,7.3,170.97,93,23,4.2
+758,John Doe,Pediatrics,17.0,"Phoenix, AZ",31.6,8.4,294.04,92,15,4.3
+759,Maria Garcia,Oncology,11.0,"Los Angeles, CA",38.3,7.5,120.74,97,15,4.0
+760,Alex Johnson,Oncology,15.0,"Phoenix, AZ",30.8,7.7,224.77,95,13,3.0
+761,Alex Johnson,General Practice,6.0,"Houston, TX",,10.2,284.18,96,13,4.2
+762,Maria Garcia,Dermatology,15.0,"New York, NY",,7.1,240.58,97,26,4.1
+763,Jane Smith,Pediatrics,17.0,"Los Angeles, CA",20.0,9.5,,93,33,4.0
+764,Jane Smith,Neurology,9.0,"Los Angeles, CA",36.2,5.2,183.05,93,26,4.6
+765,Maria Garcia,Dermatology,11.0,"Los Angeles, CA",35.3,9.3,227.41,94,14,3.0
+766,Alex Johnson,Pediatrics,12.0,"New York, NY",24.5,6.2,191.44,97,10,4.2
+767,John Doe,General Practice,,"Houston, TX",28.5,7.1,133.91,96,21,4.5
+768,Jane Smith,Dermatology,17.0,"Chicago, IL",28.7,13.8,170.75,97,14,3.7
+769,Alex Johnson,Pediatrics,18.0,"Houston, TX",26.3,8.4,164.92,93,13,4.0
+770,Jane Smith,Dermatology,14.0,"New York, NY",26.8,9.7,,95,24,3.3
+771,John Doe,Dermatology,16.0,"Phoenix, AZ",38.0,4.0,150.63,97,16,4.4
+772,Maria Garcia,Pediatrics,13.0,"Phoenix, AZ",23.3,7.7,218.37,99,15,4.2
+773,John Doe,Pediatrics,15.0,"Chicago, IL",33.7,8.8,175.71,96,24,3.5
+774,Alex Johnson,Oncology,16.0,"Phoenix, AZ",,6.2,115.35,90,21,4.4
+775,Jane Smith,Pediatrics,12.0,"New York, NY",33.2,9.2,215.96,99,23,3.4
+776,John Doe,Dermatology,13.0,"Chicago, IL",39.3,7.0,276.69,92,22,3.7
+777,John Doe,Pediatrics,14.0,"New York, NY",34.8,6.9,227.92,98,18,3.7
+778,John Doe,Pediatrics,16.0,"Los Angeles, CA",36.3,2.8,164.96,94,25,4.0
+779,Maria Garcia,Pediatrics,6.0,"Phoenix, AZ",32.0,7.8,157.98,96,33,3.5
+780,John Doe,Oncology,14.0,"Los Angeles, CA",37.4,8.1,152.86,95,20,3.9
+781,John Doe,Pediatrics,19.0,"Houston, TX",25.0,9.2,256.54,97,20,4.6
+782,Maria Garcia,Pediatrics,13.0,"Los Angeles, CA",36.9,12.3,266.76,96,18,4.2
+783,Jane Smith,Dermatology,15.0,"Phoenix, AZ",34.3,4.2,210.22,96,19,4.0
+784,John Doe,Dermatology,16.0,"Houston, TX",23.1,8.4,212.06,94,15,4.5
+785,Alex Johnson,Orthopedics,20.0,"Phoenix, AZ",,6.9,,93,30,3.8
+786,Maria Garcia,Oncology,16.0,"Phoenix, AZ",30.3,4.0,267.87,96,17,4.7
+787,Alex Johnson,Oncology,17.0,"Phoenix, AZ",25.9,10.2,215.96,93,15,4.0
+788,Jane Smith,Oncology,17.0,"New York, NY",33.6,4.8,166.57,99,19,3.5
+789,Alex Johnson,Cardiology,,"Phoenix, AZ",31.6,9.4,249.86,93,21,2.7
+790,Jane Smith,Oncology,13.0,"Houston, TX",40.6,6.3,165.22,95,14,4.5
+791,John Doe,Pediatrics,13.0,"Houston, TX",32.4,7.9,152.96,93,16,4.0
+792,Alex Johnson,Pediatrics,,"Chicago, IL",,6.0,,97,20,4.5
+793,Maria Garcia,Dermatology,22.0,"Phoenix, AZ",33.5,10.6,246.3,96,24,4.3
+794,Alex Johnson,Oncology,,"New York, NY",25.8,8.3,212.74,94,23,4.0
+795,ane Smith,Pediatrics,16.0,"Phoenix, AZ",27.6,5.6,172.46,93,28,4.0
+796,Alx Johnson,Oncology,14.0,"Houston, TX",31.5,8.2,156.58,95,19,2.9
+797,Alex Johnson,Dermatology,12.0,"Los Angeles, CA",,7.1,242.57,93,21,4.8
+798,Maria Garcia,Oncology,14.0,"Phoenix, AZ",23.3,8.1,164.47,95,20,4.1
+799,Alex Johnson,Dermatology,17.0,"New York, NY",36.7,3.1,190.03,89,15,3.8
+800,Maria Garcia,Cardiology,9.0,"Houston, TX",27.0,7.6,141.82,92,18,3.9
+801,John Doe,Pediatrics,18.0,"Phoenix, AZ",35.7,7.8,265.77,96,13,4.4
+802,Maria Garcia,Oncology,16.0,"Chicago, IL",30.6,5.6,169.87,91,17,4.1
+803,Maria Garcia,Oncology,15.0,"Los Angeles, CA",31.6,6.5,121.0,94,13,3.3
+804,Alex Johnson,Cardiology,14.0,"Houston, TX",,7.9,180.94,95,26,4.2
+805,Maria Garcia,Dermatology,13.0,"Chicago, IL",,9.2,198.59,89,23,3.6
+806,Alex Johnson,Dermatology,15.0,"Houston, TX",16.1,8.5,158.16,94,26,3.3
+807,Maria Garcia,Pediatrics,22.0,"Los Angeles, CA",25.1,11.1,240.8,97,22,4.1
+808,Maria Garcia,Pediatrics,,"Chicago, IL",25.4,10.8,144.79,98,15,4.1
+809,JohnDoe,Pediatrics,16.0,"Chicago, IL",27.6,8.0,211.31,96,23,4.5
+810,Jane Smith,Pediatrics,15.0,"Los Angeles, CA",24.1,8.8,120.54,94,17,4.6
+811,Jane Smith,Pediatrics,17.0,"Los Angeles, CA",26.5,7.7,,95,14,3.9
+812,Maria Garcia,Oncology,13.0,"Los Angeles, CA",,9.0,213.16,96,20,4.5
+813,Maria Garcia,General Practice,20.0,"Houston, TX",29.7,8.4,,94,13,4.5
+814,Alex Johnson,Oncology,-13.0,"Houston, TX",32.7,8.2,233.31,99,17,4.1
+815,Alex Johnson,Pediatrics,16.0,"New York, NY",24.7,3.0,164.0,93,23,4.5
+816,Mara Garcia,Dermatology,17.0,"Chicago, IL",37.4,8.6,264.84,94,28,3.6
+817,Jane Smith,Oncology,16.0,"Chicago, IL",29.8,6.0,232.16,97,25,4.0
+818,Jane Smith,Orthopedics,18.0,"Phoenix, AZ",44.0,7.5,202.66,96,29,4.0
+819,John Doe,Oncology,14.0,"Chicago, IL",37.4,9.6,229.13,98,24,3.8
+820,John Doe,Orthopedics,,"New York, NY",,9.4,205.09,99,23,4.0
+821,Jane Smith,Pediatrics,14.0,"New York, NY",35.9,7.7,136.6,88,27,3.6
+822,John Doe,Pediatrics,-22.0,"Los Angeles, CA",33.7,10.0,209.38,95,23,4.4
+823,Mria Garcia,Oncology,15.0,"Chicago, IL",28.8,10.1,227.63,96,21,3.3
+824,Alex Johnson,Dermatology,10.0,"New York, NY",19.5,8.8,222.59,97,16,3.1
+825,Jane Smith,Orthopedics,15.0,"Los Angeles, CA",33.5,7.5,85.26,93,23,2.8
+826,Alex Johnson,Pediatrics,12.0,"New York, NY",26.4,10.6,173.03,94,17,4.5
+827,Alex Johnson,Oncology,18.0,"Chicago, IL",32.3,7.4,193.65,100,19,4.0
+828,Alex Johnson,Cardiology,10.0,"Chicago, IL",31.2,6.3,183.28,93,13,3.2
+829,Alex Johnson,Dermatology,11.0,"Los Angeles, CA",,10.3,234.23,98,16,3.4
+830,Alex Johnson,Neurology,9.0,"Chicago, IL",31.6,7.3,,91,29,4.7
+831,Maria Garcia,Pediatrics,14.0,"Los Angeles, CA",25.3,9.7,198.63,96,22,4.4
+832,Maria Garcia,Oncology,8.0,"Chicago, IL",38.8,8.0,225.51,95,19,4.4
+833,John Doe,Dermatology,12.0,"Phoenix, AZ",33.1,6.6,229.79,100,20,4.2
+834,Alex Johnson,Oncology,13.0,"Los Angeles, CA",22.6,7.8,181.55,93,28,3.1
+835,Alex Johnson,Oncology,18.0,"Phoenix, AZ",31.5,3.4,,96,22,3.3
+836,John Doe,Pediatrics,14.0,"Chicago, IL",20.5,5.8,172.37,95,14,4.2
+837,Maria Garcia,Pediatrics,15.0,"Houston, TX",,12.2,,92,19,4.1
+838,John Doe,Pediatrics,12.0,"Chicago, IL",42.6,9.5,216.93,97,15,4.1
+839,Jane Smith,Pediatrics,,"Houston, TX",27.0,1.0,,93,23,3.9
+840,Jane Smith,Oncology,14.0,"Chicago, IL",35.7,6.8,89.34,95,22,4.8
+841,Alex Johnson,Oncology,,"Los Angeles, CA",19.2,7.6,191.23,92,29,4.1
+842,John Doe,Pediatrics,12.0,"New York, NY",,5.9,178.05,93,16,4.2
+843,Alex Johnson,Pediatrics,17.0,"Los Angeles, CA",27.2,7.3,192.6,95,17,4.7
+844,Maria Garcia,Pediatrics,8.0,"Houston, TX",27.1,5.2,284.34,98,19,3.1
+845,Maria Garcia,Dermatology,15.0,"Chicago, IL",33.5,7.7,236.82,99,20,4.8
+846,Jane Smith,Pediatrics,11.0,"Chicago, IL",36.8,7.5,256.72,92,33,4.2
+847,Alex Johnson,Pediatrics,12.0,"Chicago, IL",29.4,7.9,207.91,95,25,3.8
+848,Alex Johnson,Pediatrics,15.0,"New York, NY",33.5,6.4,218.33,94,17,4.7
+849,Alex Johnson,Pediatrics,14.0,"New York, NY",27.5,11.1,140.68,92,24,4.6
+850,Maria Garcia,Oncology,13.0,"Los Angeles, CA",41.0,8.9,,96,23,3.1
+851,Jane Smith,Pediatrics,14.0,"Los Angeles, CA",35.8,7.8,185.5,92,12,4.2
+852,Alex Johnson,Oncology,,"Houston, TX",29.6,9.6,158.28,99,17,3.9
+853,Maria Garcia,Dermatology,22.0,"New York, NY",,6.9,244.68,96,17,4.3
+854,Alex Johnson,Dermatology,15.0,"Phoenix, AZ",29.6,8.3,226.79,93,20,4.5
+855,Jane Smith,Dermatology,11.0,"Los Angeles, CA",26.3,10.2,222.43,93,25,3.6
+856,Maria Garcia,Oncology,-11.0,"Phoenix, AZ",31.1,7.9,142.82,91,17,4.7
+857,Maria Garcia,Oncology,15.0,"Los Angeles, CA",37.5,4.5,256.6,96,20,3.5
+858,Alex ohnson,Oncology,11.0,"Phoenix, AZ",21.3,10.0,195.45,93,19,4.6
+859,Jane Smit,Dermatology,-14.0,"Phoenix, AZ",,8.0,273.71,90,23,3.8
+860,Maria Garcia,Pediatrics,12.0,"Los Angeles, CA",,6.2,251.85,95,22,4.2
+861,Jane Smih,Neurology,18.0,"New York, NY",28.5,3.0,125.71,97,20,4.5
+862,John Doe,Oncology,13.0,"Los Angeles, CA",28.1,10.1,165.96,98,23,3.6
+863,John Doe,Oncology,17.0,"New York, NY",34.9,9.0,192.89,94,18,3.7
+864,John Doe,Dermatology,14.0,"Chicago, IL",41.1,8.9,234.69,97,22,3.6
+865,John Doe,Cardiology,12.0,"Chicago, IL",28.5,9.1,160.58,96,19,4.0
+866,Jane Smith,Dermatology,15.0,"Chicago, IL",29.4,6.4,201.24,96,12,3.9
+867,John Doe,Dermatology,9.0,"Chicago, IL",25.3,8.4,209.47,96,16,3.6
+868,Jane Smith,Pediatrics,15.0,"Houston, TX",21.8,12.0,229.92,92,29,3.7
+869,Jane Smith,Dermatology,,"Houston, TX",34.1,5.8,209.91,96,9,5.0
+870,Alex Johnson,Dermatology,18.0,"Los Angeles, CA",34.4,10.7,214.47,92,17,4.5
+871,Jane Smith,Pediatrics,14.0,"Phoenix, AZ",26.5,4.4,134.55,93,20,4.1
+872,Jane Smith,Dermatology,12.0,"Houston, TX",26.4,3.6,231.99,96,15,4.3
+873,Maria Garcia,Dermatology,14.0,"Houston, TX",37.4,7.3,87.66,96,18,3.9
+874,Maria Garcia,Dermatology,17.0,"Phoenix, AZ",36.2,7.8,,96,19,3.2
+875,John Doe,Pediatrics,13.0,"Houston, TX",25.1,3.0,241.59,95,23,3.6
+876,John Doe,Pediatrics,15.0,"Phoenix, AZ",30.8,7.4,228.38,94,22,3.9
+877,Jane Smith,Dermatology,15.0,"Houston, TX",33.5,5.0,99.31,90,23,4.4
+878,Maria Garcia,Oncology,18.0,"Chicago, IL",33.0,7.3,148.56,92,13,3.0
+879,John Doe,Oncology,15.0,"Phoenix, AZ",25.5,11.0,252.04,95,27,3.4
+880,Alex Johnson,Dermatology,16.0,"Chicago, IL",25.5,10.9,206.41,98,21,4.0
+881,Alex Johnson,Oncology,16.0,"Los Angeles, CA",35.6,9.3,256.9,95,16,4.1
+882,John Doe,Pediatrics,19.0,"Phoenix, AZ",,4.8,147.4,96,25,3.3
+883,Maria Garcia,Pediatrics,13.0,"Phoenix, AZ",23.8,6.1,180.18,95,21,4.4
+884,Jane Smith,Dermatology,14.0,"New York, NY",36.7,7.7,232.6,98,12,4.5
+885,John Doe,Dermatology,9.0,"Houston, TX",20.5,8.2,225.51,88,13,3.3
+886,Alex Johnson,Oncology,10.0,"Phoenix, AZ",31.0,8.5,170.63,98,24,3.9
+887,Alex Johnson,Oncology,,"New York, NY",37.0,7.3,172.63,96,16,3.9
+888,Maria Garcia,Neurology,16.0,"New York, NY",,10.7,215.75,98,21,3.9
+889,Alex Johnson,Pediatrics,15.0,"New York, NY",27.0,8.4,248.95,95,18,4.5
+890,Jane Smith,Oncology,17.0,"Chicago, IL",38.8,8.9,200.22,96,18,4.1
+891,John Doe,Oncology,10.0,"New York, NY",37.7,8.8,128.36,96,19,4.2
+892,Maria Garcia,Oncology,13.0,"Phoenix, AZ",30.7,6.7,,93,19,4.9
+893,Jane Smith,Oncology,16.0,"Los Angeles, CA",26.3,8.0,148.39,92,18,4.6
+894,John Doe,Dermatology,11.0,"Houston, TX",26.5,7.4,236.88,97,28,4.5
+895,Maria Garcia,Pediatrics,-19.0,"Chicago, IL",23.3,10.7,191.63,96,16,4.3
+896,Jane Smith,Oncology,13.0,"New York, NY",12.7,8.5,242.07,95,28,3.6
+897,Jane Smith,Pediatrics,14.0,"New York, NY",30.3,7.7,296.88,98,23,4.4
+898,Jane Smith,Pediatrics,16.0,"Chicago, IL",28.2,8.0,193.92,96,25,3.9
+899,Alex Johnson,Cardiology,12.0,"Chicago, IL",38.3,9.4,226.12,96,17,3.8
+900,John Doe,Dermatology,20.0,"Phoenix, AZ",21.0,6.6,,92,26,4.1
+901,Jane Smith,Dermatology,15.0,"Phoenix, AZ",28.8,8.3,266.0,97,17,3.4
+902,Maria Garcia,Oncology,,"Los Angeles, CA",33.1,3.0,173.68,94,21,4.1
+903,Alex Johnson,Pediatrics,12.0,"Phoenix, AZ",29.1,11.0,223.21,97,22,4.9
+904,Maria Garcia,Oncology,,"Phoenix, AZ",,7.2,,94,26,4.9
+905,Jane Smith,General Practice,16.0,"Chicago, IL",33.9,6.7,218.35,95,12,4.4
+906,Maria Garcia,Pediatrics,21.0,"Chicago, IL",27.9,6.9,263.06,95,20,3.2
+907,Jane Smith,Dermatology,17.0,"Houston, TX",30.7,8.1,148.08,93,21,4.1
+908,Jon Doe,Dermatology,15.0,"Chicago, IL",30.1,8.3,214.79,97,24,3.9
+909,Jane Smith,Oncology,16.0,"Chicago, IL",28.3,9.7,,95,17,4.3
+910,Jane Smith,Dermatology,16.0,"Phoenix, AZ",29.1,8.7,202.97,90,24,4.5
+911,Alex Johnson,Pediatrics,10.0,"Phoenix, AZ",31.7,7.3,158.51,97,25,4.2
+912,Alex Johnson,Oncology,16.0,"Chicago, IL",31.0,11.5,173.44,95,13,3.6
+913,Jane Smith,Dermatology,11.0,"Chicago, IL",22.2,7.8,259.67,96,24,4.4
+914,John Doe,Pediatrics,13.0,"Houston, TX",33.3,9.3,208.28,97,24,2.9
+915,John Doe,Dermatology,18.0,"New York, NY",22.1,8.0,87.24,93,14,4.8
+916,Jane Smith,Dermatology,22.0,"Chicago, IL",26.1,4.0,197.52,95,23,3.7
+917,Jane Smith,Oncology,18.0,"Los Angeles, CA",24.8,7.2,,95,26,5.0
+918,Alex Johnson,Dermatology,13.0,"Houston, TX",39.1,5.0,193.97,95,23,3.3
+919,Alex Johnson,Pediatrics,17.0,"New York, NY",33.2,6.6,205.18,97,23,3.6
+920,Alex Johnson,Pediatrics,18.0,"Phoenix, AZ",34.6,10.1,150.45,95,18,4.3
+921,Jane Smith,Pediatrics,13.0,"Chicago, IL",37.1,5.7,171.7,98,22,4.4
+922,John Doe,Dermatology,15.0,"Los Angeles, CA",24.6,11.4,174.71,94,16,5.4
+923,Jane Smith,Pediatrics,,"Phoenix, AZ",32.3,4.7,183.05,98,16,5.3
+924,Jane Smith,Oncology,,"Chicago, IL",32.1,7.1,247.33,97,20,4.3
+925,Alex Johnson,Oncology,14.0,"New York, NY",,7.6,189.62,96,27,3.6
+926,John Doe,Pediatrics,14.0,"Chicago, IL",35.0,10.9,,96,18,4.8
+927,Maria Garcia,Pediatrics,11.0,"Chicago, IL",30.9,0.6,,93,16,3.4
+928,Jne Smith,Dermatology,17.0,"Los Angeles, CA",,4.0,138.96,96,19,2.9
+929,Mria Garcia,Pediatrics,15.0,"Houston, TX",,10.5,233.61,98,20,4.1
+930,John Doe,Pediatrics,13.0,"Phoenix, AZ",26.5,5.2,,98,24,4.2
+931,Jane Smith,Oncology,-15.0,"Phoenix, AZ",29.5,10.9,,97,16,3.6
+932,Alex Johnson,Oncology,,"Chicago, IL",,6.8,118.95,96,15,4.4
+933,Alex Johnson,Pediatrics,14.0,"Los Angeles, CA",24.7,7.9,169.02,97,24,3.6
+934,Maria Garcia,Pediatrics,15.0,"Houston, TX",33.7,10.1,,97,19,4.6
+935,Alex Johnson,Oncology,11.0,"Chicago, IL",28.1,5.4,328.32,97,20,4.0
+936,Alex Johnson,Dermatology,14.0,"Phoenix, AZ",26.3,10.0,150.1,96,17,3.6
+937,John Doe,Oncology,16.0,"Chicago, IL",30.2,10.9,,95,23,3.7
+938,John Doe,Pediatrics,,"New York, NY",29.4,10.7,246.65,91,22,5.1
+939,Alex Johnson,General Practice,14.0,"Houston, TX",,5.5,79.45,93,22,3.7
+940,Jane Smith,Oncology,15.0,"Chicago, IL",30.0,8.1,217.24,97,18,4.3
+941,Alex Johnson,General Practice,,"Los Angeles, CA",,6.1,220.11,93,26,4.2
+942,Jane Smith,Pediatrics,13.0,"Phoenix, AZ",33.6,10.3,213.71,94,20,4.4
+943,Jane Smith,Oncology,11.0,"New York, NY",,10.1,135.09,92,22,3.7
+944,Maria Garcia,Pediatrics,14.0,"Los Angeles, CA",22.5,7.3,246.86,96,24,4.6
+945,Jane Smith,Neurology,14.0,"Phoenix, AZ",28.9,6.9,204.26,93,20,3.1
+946,Jane Smith,Orthopedics,20.0,"New York, NY",32.1,8.5,163.29,94,14,4.1
+947,John Doe,Dermatology,14.0,"Phoenix, AZ",23.8,6.3,155.88,96,22,4.0
+948,Alex Johnson,Oncology,15.0,"Houston, TX",27.7,8.3,174.47,96,18,4.4
+949,Jane Smith,Orthopedics,14.0,"Chicago, IL",25.8,5.6,209.42,93,20,4.3
+950,Maria Garcia,Dermatology,,"Phoenix, AZ",28.2,1.0,190.16,93,22,3.9
+951,Jane Smith,Pediatrics,13.0,"New York, NY",40.6,9.1,199.79,97,16,3.6
+952,Jane Smith,Oncology,-15.0,"Houston, TX",38.6,9.2,178.53,93,21,4.6
+953,Jane Smith,Oncology,12.0,"Chicago, IL",23.4,7.1,127.9,91,13,4.6
+954,John Doe,Dermatology,17.0,"Houston, TX",33.0,7.1,191.46,92,20,5.1
+955,Jane Smith,General Practice,15.0,"Los Angeles, CA",27.3,4.6,,96,17,4.1
+956,John Doe,Dermatology,16.0,"Los Angeles, CA",29.6,10.0,275.15,95,16,4.6
+957,Alex Johnson,Dermatology,12.0,"Chicago, IL",29.7,7.9,231.81,93,21,3.9
+958,Maria Garcia,Oncology,-12.0,"Los Angeles, CA",,11.2,257.31,94,19,3.8
+959,John Doe,Oncology,16.0,"Chicago, IL",39.7,10.3,198.62,94,14,3.4
+960,Alex Johnson,Oncology,13.0,"Los Angeles, CA",29.5,11.6,204.62,96,17,3.4
+961,Alex Johnson,Dermatology,9.0,"Los Angeles, CA",27.3,11.8,297.16,95,21,4.1
+962,John Doe,Oncology,13.0,"Los Angeles, CA",37.2,8.6,168.9,98,28,3.7
+963,Alex Johnson,Oncology,18.0,"Chicago, IL",34.1,9.6,125.31,96,22,4.9
+964,Maria Garcia,Pediatrics,16.0,"Phoenix, AZ",34.6,8.2,177.7,97,17,4.2
+965,John Doe,Pediatrics,16.0,"Phoenix, AZ",25.1,9.6,212.8,96,21,3.4
+966,John Doe,Pediatrics,12.0,"Los Angeles, CA",31.8,8.2,252.07,94,17,4.2
+967,Jan Smith,Oncology,,"Phoenix, AZ",31.4,8.8,244.98,96,18,4.8
+968,John Doe,Pediatrics,11.0,"Houston, TX",20.9,8.7,201.52,97,19,4.1
+969,Jane Smith,Oncology,19.0,"Los Angeles, CA",28.1,7.8,141.76,93,21,4.0
+970,Alex Johnson,Pediatrics,16.0,"Houston, TX",36.2,8.3,176.97,92,18,3.8
+971,John Doe,Dermatology,9.0,"Phoenix, AZ",30.3,9.5,154.99,95,17,3.8
+972,ane Smith,Oncology,14.0,"Chicago, IL",30.9,7.4,181.69,97,21,4.1
+973,Maria Garcia,Pediatrics,15.0,"New York, NY",33.0,7.9,212.41,97,8,3.5
+974,Maria Gacia,Pediatrics,14.0,"Chicago, IL",20.8,5.6,260.52,96,21,3.7
+975,Jane Smith,Pediatrics,,"Chicago, IL",33.7,4.5,235.68,93,20,4.6
+976,Maria Garcia,Oncology,,"Phoenix, AZ",28.9,11.0,171.96,95,25,4.1
+977,Alex Johnson,Oncology,17.0,"Chicago, IL",33.0,8.6,186.33,95,21,3.9
+978,Alex Johnson,Dermatology,-15.0,"Phoenix, AZ",26.1,2.6,198.91,90,16,4.1
+979,Alex Johnson,Pediatrics,11.0,"New York, NY",36.2,8.0,187.14,98,26,4.5
+980,Alex Johnson,General Practice,16.0,"Phoenix, AZ",31.2,12.3,143.01,95,27,4.7
+981,Alex Johnson,Oncology,21.0,"Houston, TX",31.9,5.8,210.86,95,23,3.6
+982,Alex Johnson,Pediatrics,14.0,"Phoenix, AZ",25.0,6.9,168.0,95,26,3.6
+983,Maria Garcia,Pediatrics,16.0,"Houston, TX",23.2,3.5,220.05,97,21,3.6
+984,Alex Johnson,Pediatrics,12.0,"Chicago, IL",21.7,6.7,135.53,97,25,4.1
+985,Maria Garcia,Dermatology,,"Chicago, IL",20.6,11.9,169.33,96,18,4.5
+986,Maria Garcia,Dermatology,19.0,"Houston, TX",34.3,10.3,187.05,95,18,3.4
+987,Alex Johnson,Oncology,13.0,"Chicago, IL",25.2,4.3,215.13,96,21,4.3
+988,Jane Smith,Oncology,16.0,"Los Angeles, CA",26.7,8.3,232.36,95,17,4.8
+989,John Doe,Oncology,17.0,"New York, NY",34.7,9.6,210.21,90,22,5.1
+990,John Doe,Oncology,15.0,"Phoenix, AZ",33.8,11.2,249.69,99,17,4.3
+991,Maria Garcia,Dermatology,17.0,"New York, NY",23.1,11.3,274.04,95,22,3.8
+992,Alex Johnson,Pediatrics,16.0,"Chicago, IL",32.8,10.3,187.94,95,21,4.1
+993,Alex Johnson,Dermatology,16.0,"New York, NY",25.8,6.7,210.32,94,12,3.6
+994,John Doe,Orthopedics,,"Los Angeles, CA",32.4,7.7,199.66,96,14,4.0
+995,John Doe,Oncology,,"Los Angeles, CA",29.3,3.0,157.98,93,21,4.3
+996,Alex Johnson,Dermatology,11.0,"Phoenix, AZ",,7.3,233.36,96,24,4.8
+997,Maria Garcia,Pediatrics,21.0,"Chicago, IL",22.8,8.1,205.96,98,19,4.2
+998,Jane Smith,Dermatology,16.0,"Chicago, IL",29.4,7.7,204.79,94,20,4.1
+999,Maria Garcia,Dermatology,19.0,"Los Angeles, CA",30.5,5.9,212.56,99,16,3.0
+1000,Jane Smith,Dermatology,17.0,"Houston, TX",30.1,7.6,,94,18,3.7
