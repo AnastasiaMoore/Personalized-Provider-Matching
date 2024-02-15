@@ -17,10 +17,22 @@ Choosing the right healthcare provider is a decision that affects health outcome
 
 The app utilizes a synthetic dataset reflecting typical healthcare provider metrics. The dataset includes:
 
-Provider names and specialties
-Years of experience
-Location-based practices
-Average patient recovery times
-Patient satisfaction scores
-Treatment costs and success rates
-This dataset has been purposefully designed to be 'messy,' mimicking real-world data challenges such as typos, missing values, and outliers. Users have the opportunity to engage with the data through an interactive SQL interface, allowing them to clean and query data as part of the user experience.
+* Provider names and specialties
+* Years of experience
+* Location-based practices
+* Average patient recovery times
+* Patient satisfaction scores
+* Treatment costs and success rates
+  
+This dataset has been purposefully designed to be 'messy,' mimicking real-world data challenges such as typos, missing values, and outliers. 
+
+# The Technology
+
+At the heart of "Healthcare Provider Insight" is a robust machine learning framework capable of processing complex datasets to deliver actionable insights. The technology stack includes:
+
+* Python for backend processing and analytics
+* SQL for data querying and cleanup
+* Streamlit for an intuitive user interface
+* Scikit-learn for predictive modeling
+
+  
