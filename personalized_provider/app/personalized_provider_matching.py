@@ -1,4 +1,5 @@
 import sys
+
 from pathlib import Path
 
 # Add the src directory to the Python path
@@ -25,14 +26,30 @@ def load_data():
     data = pd.read_csv(csv_file_path)
     return data
 
-data = load_data()
+# Load the dataset
+data = load_data()  
 
-# Clean the dataset
 @st.cache
-def get_cleaned_data(data):
-    return clean_dataset(data)
+def get_cleaned_data():
+    """
+    Load, clean, and return the dataset ready for analysis and modeling.
+    
+    The function uses caching to avoid re-loading and re-cleaning the data
+    each time the Streamlit app is refreshed.
+    
+    Returns:
+        DataFrame: The cleaned dataset.
+    """
+    # Load the dataset
+    data = load_data()  # load_data() is called here
 
-cleaned_data = get_cleaned_data(data)
+    # Clean the dataset using the clean_dataset function from the cleaning module
+    cleaned_data = clean_dataset(data)  # clean_dataset() is called here with the loaded data
+
+    return cleaned_data
+
+# No need to pass 'data' since 'get_cleaned_data' will call 'load_data()' within it
+cleaned_data = get_cleaned_data()
 
 # Build or load the machine learning model
 @st.cache(allow_output_mutation=True)
@@ -89,4 +106,40 @@ with tab2:
     ## Try It Out
     
     Use the 'App' tab to input your information and find out which healthcare providers are best for you!
+    """)
+
+# Portfolio tab content
+with st.tabs("Methodology"):
+    st.write("""
+    ## Project Portfolio: Healthcare Provider Insight
+
+    ### Overview
+    - **Objective**: Briefly summarize the goal of creating the Healthcare Provider Insight app.
+    - **Motivation**: Explain why you chose to work on this project and how it aligns with Garner Health’s mission.
+
+    ### Data Analysis & Cleaning
+    - **Data Exploration**: Discuss how you explored the data and any interesting insights you found.
+    - **Cleaning Process**: Outline the steps you took to clean the data, challenges faced, and how you overcame them.
+    - **Tools & Technologies Used**: List the tools and technologies you used for data cleaning (e.g., SQL, Python libraries).
+
+    ### Predictive Modeling
+    - **Model Selection**: Describe the machine learning models you considered and why you chose the final model.
+    - **Feature Engineering**: Discuss any features you engineered and why they are important for the model.
+    - **Model Performance**: Share how you evaluated the model’s performance (e.g., accuracy, precision, recall).
+
+    ### App Development
+    - **Streamlit**: Elaborate on why you chose Streamlit for the app and the benefits it provided.
+    - **User Interface**: Discuss the design choices you made for the app’s user interface.
+    - **Interactivity**: Highlight the interactive elements of the app (e.g., sliders, buttons, inputs).
+
+    ### Challenges & Learnings
+    - **Challenges**: Share significant challenges you encountered while working on the project and how you solved them.
+    - **Learnings**: Reflect on what you learned during the project and how it has helped you grow as a data scientist.
+
+    ### Future Improvements
+    - **Next Steps**: Outline the potential next steps to improve the app further.
+    - **Features Wishlist**: List any additional features you would like to add to the app in the future.
+
+    ### Contact Information
+    - Provide your contact details for prospective employers or collaborators to reach out to you.
     """)
