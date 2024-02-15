@@ -17,7 +17,7 @@ import numpy as np
 # Import other necessary modules
 
 # Load the dataset
-@st.cache
+#@st.cache
 def load_data():
     # Use an absolute path to locate the CSV file
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -29,7 +29,7 @@ def load_data():
 # Load the dataset
 data = load_data()  
 
-@st.cache
+#@st.cache
 def get_cleaned_data():
     """
     Load, clean, and return the dataset ready for analysis and modeling.
@@ -52,14 +52,14 @@ def get_cleaned_data():
 cleaned_data = get_cleaned_data()
 
 # Build or load the machine learning model
-@st.cache(allow_output_mutation=True)
+#@st.cache(allow_output_mutation=True)
 def get_model(cleaned_data):
     return build_model(cleaned_data)
 
 model = get_model(cleaned_data)
 
 # Create tabs
-tab1, tab2 = st.tabs(["App", "About"])
+tab1, tab2, tab3 = st.tabs(["App", "About", "Methodology"])
 
 # App tab content
 with tab1:
@@ -109,8 +109,10 @@ with tab2:
     """)
 
 # Portfolio tab content
-with st.tabs("Methodology"):
+with tab3:
     st.write("""
+    ## Methodology
+
     ## Project Portfolio: Healthcare Provider Insight
 
     ### Overview
