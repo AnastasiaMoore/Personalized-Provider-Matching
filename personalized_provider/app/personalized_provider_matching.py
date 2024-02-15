@@ -8,7 +8,7 @@ sys.path.append(str(Path(__file__).parent.parent / "src"))
 from cleaning import clean_dataset
 from analysis import perform_analysis
 from modeling import build_model
-from utils import some_utility_function
+
 
 import streamlit as st
 import pandas as pd
